@@ -1,0 +1,297 @@
+execution:
+    uuid: 299f6d71-2218-410a-bc79-9dff155e3f76
+    runtime:
+        start: 2018-11-08T13:38:55.853197-05:00
+        end: 2018-11-08T13:38:56.596890-05:00
+        duration: 743693 microseconds
+
+action:
+    type: import
+    format: CasavaOneEightSingleLanePerSampleDirFmt
+    manifest:
+    -   name: Feb10-r1-a_SPA_S5_L001_R1_001.fastq.gz
+        md5sum: 5e1987245548caa5de5a2aecde699b11
+    -   name: Feb10-r2-a_SPA_S17_L001_R1_001.fastq.gz
+        md5sum: 795e37966f46d033e1383e15a08ad69f
+    -   name: Feb10-r3-a_SPA_S29_L001_R1_001.fastq.gz
+        md5sum: 0220fb131b8747aa881dcc6b208e6f59
+    -   name: Feb10-r4-a_SPA_S41_L001_R1_001.fastq.gz
+        md5sum: faebe1bd3be12093a0651df5b24d4bd3
+    -   name: Feb10-r5-a_SPA_S53_L001_R1_001.fastq.gz
+        md5sum: d756bf4c2871aaafe097475a28f8ec81
+    -   name: Feb10-r6-a_SPA_S65_L001_R1_001.fastq.gz
+        md5sum: 381e91e99de892b826e0b31493c60ade
+    -   name: Feb10-r7-a_SPA_S77_L001_R1_001.fastq.gz
+        md5sum: fa3dd9f6ebf3ee17ca3928c5c9962f74
+    -   name: Feb7-12_SPA_S49_L001_R1_001.fastq.gz
+        md5sum: 6064c7fd8eb02ad4c254b29bd6ac1042
+    -   name: Feb7-15_SPA_S61_L001_R1_001.fastq.gz
+        md5sum: 4a2f7ccccaa579ca9608b0eb55f55906
+    -   name: Feb7-1_SPA_S1_L001_R1_001.fastq.gz
+        md5sum: 6ca5b43d1d58cbad383acb9274723543
+    -   name: Feb7-20_SPA_S73_L001_R1_001.fastq.gz
+        md5sum: a0831bf82514926162b090bcfdcdd17a
+    -   name: Feb7-3_SPA_S13_L001_R1_001.fastq.gz
+        md5sum: 16fd872c85909015081f6b3212f924a7
+    -   name: Feb7-6_SPA_S25_L001_R1_001.fastq.gz
+        md5sum: 0da11567d0e1796a7372bfddbfd78cae
+    -   name: Feb7-9_SPA_S37_L001_R1_001.fastq.gz
+        md5sum: d612a639c1a2faa6108eee9f5885d85f
+    -   name: Feb8-12_SPA_S74_L001_R1_001.fastq.gz
+        md5sum: 6d350ee665b4a4a3c63b5edfdebd4ef1
+    -   name: Feb8-15_SPA_S86_L001_R1_001.fastq.gz
+        md5sum: ec0aa210e07d908c0bde9c4bc0ad9b1f
+    -   name: Feb8-19_SPA_S3_L001_R1_001.fastq.gz
+        md5sum: 6b62c81c73308a171778f97f9671713d
+    -   name: Feb8-23_SPA_S15_L001_R1_001.fastq.gz
+        md5sum: c1f254c271db4df1214c9c0c0d3efa68
+    -   name: Feb8-27_SPA_S27_L001_R1_001.fastq.gz
+        md5sum: fd0c3801eb4dd49f8a6e9c381bfe95ab
+    -   name: Feb8-2_SPA_S26_L001_R1_001.fastq.gz
+        md5sum: 47aedfa52985a9558c49b979e4e0cc22
+    -   name: Feb8-32_SPA_S39_L001_R1_001.fastq.gz
+        md5sum: 78a6bccbaf226d008f8970c8bbf57987
+    -   name: Feb8-33_SPA_S51_L001_R1_001.fastq.gz
+        md5sum: e6bc987433c2dbad6a62a2fb2ebe9fcf
+    -   name: Feb8-35_SPA_S63_L001_R1_001.fastq.gz
+        md5sum: 2255a42914843c2a5f3486daa4e5dccf
+    -   name: Feb8-37_SPA_S75_L001_R1_001.fastq.gz
+        md5sum: 338e65b6a136344b6c7fff721bee3836
+    -   name: Feb8-39_SPA_S87_L001_R1_001.fastq.gz
+        md5sum: 1c403cac7106fc8deb25a962275b0cac
+    -   name: Feb8-41_SPA_S4_L001_R1_001.fastq.gz
+        md5sum: 461c3ff7562dc9a3366ddb0956626abf
+    -   name: Feb8-43_SPA_S16_L001_R1_001.fastq.gz
+        md5sum: 12558cefe25ea4b919c8419f70d9782f
+    -   name: Feb8-45_SPA_S28_L001_R1_001.fastq.gz
+        md5sum: 5cc1de58b7e01442d1bc4f58af9f867c
+    -   name: Feb8-47_SPA_S40_L001_R1_001.fastq.gz
+        md5sum: 718ff8a3659831597cf7b9b6d9543d10
+    -   name: Feb8-49_SPA_S52_L001_R1_001.fastq.gz
+        md5sum: f4e3a0ae075bb6fc0954301a7cfa32a6
+    -   name: Feb8-51_SPA_S64_L001_R1_001.fastq.gz
+        md5sum: cd1fb4d1806d265039e65ae568d0344d
+    -   name: Feb8-53_SPA_S76_L001_R1_001.fastq.gz
+        md5sum: b75976ec2b24562b55170d06fd1ebe66
+    -   name: Feb8-55_SPA_S88_L001_R1_001.fastq.gz
+        md5sum: 4715bc36aaf6fdd2a07cb9930235d78c
+    -   name: Feb8-5_SPA_S38_L001_R1_001.fastq.gz
+        md5sum: a5f3d820ee960a3a10479a96a7f1131d
+    -   name: Feb8-61_SPA_S2_L001_R1_001.fastq.gz
+        md5sum: 8a4953a73c92b2ae949c5c4b83264f4c
+    -   name: Feb8-65_SPA_S85_L001_R1_001.fastq.gz
+        md5sum: 726fec246f2937cf106446deec5952b4
+    -   name: Feb8-7_SPA_S50_L001_R1_001.fastq.gz
+        md5sum: 88052f43724ca117a6ad9b5214f46024
+    -   name: Feb8-9_SPA_S62_L001_R1_001.fastq.gz
+        md5sum: e8a38f3481959afea434b8d77ed75a95
+    -   name: Feb9-1-a_SPA_S58_L001_R1_001.fastq.gz
+        md5sum: 8f0f46dcdc459810555e91edca74b5d5
+    -   name: Feb9-1-b_SPA_S70_L001_R1_001.fastq.gz
+        md5sum: 1ad1c2dce00be74e160d1ef67f8cdd83
+    -   name: Feb9-2-a_SPA_S82_L001_R1_001.fastq.gz
+        md5sum: 4c98df123f4da6f645a56c09b26f7e2e
+    -   name: Feb9-2-b_SPA_S94_L001_R1_001.fastq.gz
+        md5sum: a820c380b0e93e765bc998716e15c68e
+    -   name: Feb9-3-a_SPA_S11_L001_R1_001.fastq.gz
+        md5sum: 9d6898139b403de25df500e018d30816
+    -   name: Feb9-3-b_SPA_S23_L001_R1_001.fastq.gz
+        md5sum: 3393870def1606c048d733e1b4ddaf22
+    -   name: Feb9-4-11_SPA_S45_L001_R1_001.fastq.gz
+        md5sum: 5ab351f5d07f1ed5f57e0306f71db77f
+    -   name: Feb9-4-14_SPA_S57_L001_R1_001.fastq.gz
+        md5sum: 53f165fe264996af85982f7fe5556196
+    -   name: Feb9-4-17_SPA_S69_L001_R1_001.fastq.gz
+        md5sum: 018042d7be7a03f41f10c31ee21ed6c4
+    -   name: Feb9-4-20_SPA_S81_L001_R1_001.fastq.gz
+        md5sum: 7b94e0ff5a62aa4d5961cbf4e7ae8111
+    -   name: Feb9-4-22_SPA_S93_L001_R1_001.fastq.gz
+        md5sum: cd24dede2fbcadc0492df8439b89ec5d
+    -   name: Feb9-4-24_SPA_S10_L001_R1_001.fastq.gz
+        md5sum: 2d5d7ab4139a6f9668dc6ff7324e58f5
+    -   name: Feb9-4-26_SPA_S22_L001_R1_001.fastq.gz
+        md5sum: be80e19794a757dd207c35b1e3683443
+    -   name: Feb9-4-28_SPA_S34_L001_R1_001.fastq.gz
+        md5sum: bd72c47d5ee194967f37dc4a44497f09
+    -   name: Feb9-4-2_SPA_S92_L001_R1_001.fastq.gz
+        md5sum: 149bf1862bde84d9da217791a86c4692
+    -   name: Feb9-4-30-a_SPA_S46_L001_R1_001.fastq.gz
+        md5sum: 6fa65992b7ca9b06b82ac7072de2e379
+    -   name: Feb9-4-4_SPA_S9_L001_R1_001.fastq.gz
+        md5sum: 279ae49a516fa30f667dfbb79e8cb4f6
+    -   name: Feb9-4-6_SPA_S21_L001_R1_001.fastq.gz
+        md5sum: 2c6b2335b3eabcdf065b0114fc08289d
+    -   name: Feb9-4-8_SPA_S33_L001_R1_001.fastq.gz
+        md5sum: dd15eccbbeed7c4f3694c4cc21386e21
+    -   name: Feb9-4-a_SPA_S35_L001_R1_001.fastq.gz
+        md5sum: 0d263809ace5cffe12e51841c27fc141
+    -   name: Feb9-4-b_SPA_S47_L001_R1_001.fastq.gz
+        md5sum: 2233ec30e37f74185b961d28bb8c1a70
+    -   name: Feb9-5-a_SPA_S59_L001_R1_001.fastq.gz
+        md5sum: 25a07cb02ca2e63f22fdb59579da1f33
+    -   name: Feb9-5-b_SPA_S71_L001_R1_001.fastq.gz
+        md5sum: b00e1c596ce0a09d7af9bc7be4c301e1
+    -   name: Feb9-6-a_SPA_S83_L001_R1_001.fastq.gz
+        md5sum: 3c75674af28c4457f0a7623b8b0cd486
+    -   name: Feb9-6-b_SPA_S95_L001_R1_001.fastq.gz
+        md5sum: 8cacc857baefde6aade5bbda00e7754c
+    -   name: Feb9-7-a_SPA_S12_L001_R1_001.fastq.gz
+        md5sum: f21fa8bcb98bc2c307946d8569a05c1a
+    -   name: Feb9-7-b_SPA_S24_L001_R1_001.fastq.gz
+        md5sum: 0492e5285d214decd3649d6a88d4ec75
+    -   name: Feb9-8-a_SPA_S36_L001_R1_001.fastq.gz
+        md5sum: ac9b1a7984849816518fe620128a047e
+    -   name: Feb9-8-b_SPA_S48_L001_R1_001.fastq.gz
+        md5sum: 017b00e3baa77d67576a3882eeefeac0
+    -   name: SG1-E-mid_SPA_S14_L001_R1_001.fastq.gz
+        md5sum: 6f0864ded9d13b56062a974cf44e6783
+
+transformers:
+    output:
+    -   from: CasavaOneEightSingleLanePerSampleDirFmt
+        to: SingleLanePerSampleSingleEndFastqDirFmt
+        plugin: !ref 'environment:plugins:types'
+
+environment:
+    platform: linux-x86_64
+    python: |-
+        3.5.5 | packaged by conda-forge | (default, Apr  6 2018, 13:41:05)
+        [GCC 4.8.2 20140120 (Red Hat 4.8.2-15)]
+    framework:
+        version: 2018.8.0
+        website: https://qiime2.org
+        citations:
+        - !cite 'framework|qiime2:2018.8.0|0'
+    plugins:
+        types:
+            version: 2018.8.0
+            website: https://github.com/qiime2/q2-types
+    python-packages:
+        zope.interface: 4.5.0
+        xopen: 0.3.2
+        widgetsnbextension: 3.4.0
+        wheel: 0.31.1
+        webencodings: 0.5.1
+        wcwidth: 0.1.7
+        urllib3: '1.23'
+        unifrac: 0.9.2
+        Twisted: 18.7.0
+        traitlets: 4.3.2
+        tornado: 5.1.1
+        testpath: 0.3.1
+        terminado: 0.8.1
+        statsmodels: 0.9.0
+        six: 1.11.0
+        simplegeneric: 0.8.1
+        setuptools: 40.2.0
+        service-identity: 17.0.0
+        Send2Trash: 1.5.0
+        seaborn: 0.9.0
+        scipy: 0.19.1
+        scikit-learn: 0.19.1
+        scikit-bio: 0.5.4
+        requests: 2.19.1
+        qiime2: 2018.8.0
+        q2templates: 2018.8.0
+        q2cli: 2018.8.0
+        q2-vsearch: 2018.8.0
+        q2-types: 2018.8.0
+        q2-taxa: 2018.8.0
+        q2-sample-classifier: 2018.8.0
+        q2-quality-filter: 2018.8.0
+        q2-quality-control: 2018.8.0
+        q2-phylogeny: 2018.8.0
+        q2-metadata: 2018.8.0
+        q2-longitudinal: 2018.8.0
+        q2-gneiss: 2018.8.0
+        q2-feature-table: 2018.8.0
+        q2-feature-classifier: 2018.8.0
+        q2-emperor: 2018.8.0
+        q2-diversity: 2018.8.0
+        q2-demux: 2018.8.0
+        q2-deblur: 2018.8.0
+        q2-dada2: 2018.8.0
+        q2-cutadapt: 2018.8.0
+        q2-composition: 2018.8.0
+        q2-alignment: 2018.8.0
+        pyzmq: 17.1.2
+        PyYAML: '3.13'
+        pytz: '2018.5'
+        python-dateutil: 2.7.3
+        PySocks: 1.6.8
+        pyparsing: 2.2.0
+        pyOpenSSL: 18.0.0
+        PyHamcrest: 1.9.0
+        Pygments: 2.2.0
+        pycparser: '2.18'
+        pyasn1: 0.4.4
+        pyasn1-modules: 0.2.1
+        ptyprocess: 0.6.0
+        psutil: 5.4.7
+        prompt-toolkit: 1.0.15
+        prometheus-client: 0.3.0
+        pip: '18.0'
+        pickleshare: 0.7.4
+        pexpect: 4.6.0
+        patsy: 0.5.0
+        parso: 0.3.1
+        pandocfilters: 1.4.2
+        pandas: 0.22.0
+        packaging: '17.1'
+        numpy: 1.12.1
+        notebook: 5.6.0
+        nose: 1.3.7
+        nbformat: 4.4.0
+        nbconvert: 5.3.1
+        natsort: 5.3.3
+        msgpack: 0.5.6
+        mistune: 0.8.3
+        matplotlib: 2.2.2
+        MarkupSafe: '1.0'
+        lockfile: 0.12.2
+        kiwisolver: 1.0.1
+        jupyter-core: 4.4.0
+        jupyter-client: 5.2.3
+        jsonschema: 2.6.0
+        Jinja2: '2.10'
+        jedi: 0.12.1
+        ipywidgets: 7.4.0
+        ipython: 6.5.0
+        ipython-genutils: 0.2.0
+        ipykernel: 4.9.0
+        incremental: 17.5.0
+        idna: '2.7'
+        hyperlink: 17.3.1
+        html5lib: 1.0.1
+        hdmedians: '0.13'
+        h5py: 2.7.0
+        gneiss: 0.4.4
+        future: 0.16.0
+        fastcluster: 1.1.25
+        entrypoints: 0.2.3
+        emperor: 1.0.0b17
+        decorator: 4.3.0
+        deblur: 1.0.4
+        Cython: 0.28.5
+        cycler: 0.10.0
+        cutadapt: '1.17'
+        cryptography: 2.3.1
+        cryptography-vectors: 2.3.1
+        constantly: 15.1.0
+        click: '6.7'
+        chardet: 3.0.4
+        cffi: 1.11.5
+        certifi: 2018.8.24
+        CacheControl: 0.12.5
+        bz2file: '0.98'
+        bokeh: 0.13.0
+        bleach: 2.1.4
+        bibtexparser: 1.0.1
+        backcall: 0.1.0
+        Automat: 0.7.0
+        attrs: 18.1.0
+        asn1crypto: 0.24.0
+        appdirs: 1.4.3
+        biom-format: 2.1.6
+        ijson: '2.3'
+        tzlocal: '1.3'
