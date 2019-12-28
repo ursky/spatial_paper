@@ -85,7 +85,7 @@ if len(sys.argv)>1:
 else:
 	category = "slice"
 
-sns.set(rc={'figure.figsize':(11.7,8.27)})
+sns.set(rc={'figure.figsize':(8,6)})
 sns.set(style="whitegrid")
 
 
@@ -97,7 +97,7 @@ ax.set_xlabel("Slice")
 
 
 plt.tight_layout()
-plt.savefig("figure.png")
+plt.savefig("figure.png", dpi=300)
 #plt.show()
 
 

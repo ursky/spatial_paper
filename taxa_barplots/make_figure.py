@@ -15,7 +15,8 @@ def load_data(filename):
 		"D_0__Bacteria;D_1__Actinobacteria", \
 		"D_0__Bacteria;D_1__Bacteroidetes", \
 		"D_0__Bacteria;D_1__Cyanobacteria", \
-		"D_0__Bacteria;D_1__Proteobacteria"])
+		"D_0__Bacteria;D_1__Proteobacteria", \
+		"D_0__Eukarya;D_1__Chlorophyta"])
 	for i,line in enumerate(open(filename)):
 		cut=line.strip().split(",")
 		if i==0:
@@ -32,16 +33,22 @@ def load_data(filename):
 				if "D_1__" in taxon:
 					total+=float(val)
 			for i,val in enumerate(cut):
-				if head[i] not in toi:
-					continue
 				taxon = head[i]
+				if "Chloroplast" in taxon:
+					taxon = "D_0__Eukarya;D_1__Chlorophyta"
+				taxon = ";".join(taxon.split(";")[:2])
+				if taxon not in toi:
+					continue
 				abund = 100.0*float(val)/total
 				index = sample+"_"+taxon
-				data[index] = {}
-				data[index]["taxon"]=taxon.split("_")[-1]
-				data[index]["location"]=location
-				data[index]["sample"]=sample
-				data[index]["abundance"]=abund
+				if index not in data:
+					data[index] = {}
+					data[index]["taxon"]=taxon.split("_")[-1]
+					data[index]["location"]=location
+					data[index]["sample"]=sample
+					data[index]["abundance"]=abund
+				else:
+					data[index]["abundance"]+=abund
 	df = pd.DataFrame.from_dict(data).T
 	return data, df
 
@@ -72,9 +79,9 @@ def draw_signifficance_bars(data, labels, ax):
 			lists[groups[location]].append(abund)
 
 		test=stats.ttest_ind(lists[0], lists[1])
-		if test.pvalue > 0.05: continue
-		elif test.pvalue > 0.01: m='*'
-		elif test.pvalue > 0.001: m='**'
+		if test.pvalue > 0.01: continue
+		elif test.pvalue > 0.001: m='*'
+		elif test.pvalue > 0.0001: m='**'
 		else: m='***'
 		ax.hlines(y=hmax+5, xmin=x_st-0.25, xmax=x_st+0.25, linewidth=1, color='k')
 		ax.text(x_st, hmax+5, m, ha='center', fontsize=12)
@@ -82,7 +89,7 @@ def draw_signifficance_bars(data, labels, ax):
 
 def draw_boxplot(filename):
 	data, df = load_data(filename)
-	taxa = ["Euryarchaeota", "Bacteroidetes", "Cyanobacteria", "Proteobacteria", "Actinobacteria", "Nanohaloarchaeota"]
+	taxa = ["Euryarchaeota", "Bacteroidetes", "Cyanobacteria", "Chlorophyta", "Proteobacteria", "Actinobacteria", "Nanohaloarchaeota"]
 	df["abundance"] = df["abundance"].astype(float)
 
 	plt.figure(figsize=(8,5))
@@ -110,7 +117,7 @@ def draw_boxplot(filename):
 
 sns.set(style="whitegrid")
 
-draw_boxplot("large.csv")
-draw_boxplot("medium.csv")
+draw_boxplot("large-3.csv")
+draw_boxplot("medium-3.csv")
 
 

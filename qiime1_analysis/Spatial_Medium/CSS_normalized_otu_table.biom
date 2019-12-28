@@ -1,0 +1,2189 @@
+{
+ "id": null,
+"format": "Biological Observation Matrix 1.0.0-dev",
+"format_url": "http://biom-format.org/documentation/format_versions/biom-1.0.html",
+"type": "OTU table",
+"generated_by": "metagenomeSeq 1.14.2",
+"date": "2019-09-03 12:10:34",
+"matrix_type": "dense",
+"matrix_element_type": "float",
+"shape": [ 300, 18 ],
+"rows": [
+ {
+ "id": "HM127296.1.1462",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Chromatiales", "D_4__Ectothiorhodospiraceae", "D_5__uncultured", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "CU467404.1.1354",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "FN391291.1.1344",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halovenus" ] 
+} 
+},
+{
+ "id": "AB072814.1.1472",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halosimplex" ] 
+} 
+},
+{
+ "id": "KC465608.1.1353",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "KF591569.1.1052",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorhabdus", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "JQKV01000030.1.1156",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "GQ861389.1.920",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "HM204925.1.1439",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Alphaproteobacteria", "D_3__Sphingomonadales", "D_4__Sphingomonadaceae", "D_5__Sphingomonas" ] 
+} 
+},
+{
+ "id": "AJ969840.1.917",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halovenus", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "JN038033.1.1058",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicrobium" ] 
+} 
+},
+{
+ "id": "AF142880.1.991",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halolamina" ] 
+} 
+},
+{
+ "id": "EF468473.1.1470",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "FN391188.1.1354",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum", "D_6__uncultured Halobacterium sp." ] 
+} 
+},
+{
+ "id": "HQ425148.1.1427",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halovenus" ] 
+} 
+},
+{
+ "id": "HE604442.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "KF591561.1.1041",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubellus" ] 
+} 
+},
+{
+ "id": "JX882356.1.1454",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JX882083.1.1474",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Chromatiales", "D_4__Ectothiorhodospiraceae", "D_5__Arhodomonas", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "CU467262.1.1344",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "JX883429.1.1485",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JN714423.1.1470",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "EF106671.1.999",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "KJ588897.1.998",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Candidatus Halobonum" ] 
+} 
+},
+{
+ "id": "HQ400525.1.920",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Candidatus Halobonum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "FN994978.1.1345",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halobacterium" ] 
+} 
+},
+{
+ "id": "HQ400553.1.914",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "EF690614.1.1438",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halovenus", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "HM240871.1.1312",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionI", "D_4__FamilyI", "D_5__Cyanothece", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "EF522229.1.1329",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Chloroplast", "D_3__uncultured Chlorophyta", "D_4__uncultured Chlorophyta", "D_5__uncultured Chlorophyta", "D_6__uncultured Chlorophyta" ] 
+} 
+},
+{
+ "id": "EF106654.1.937",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum" ] 
+} 
+},
+{
+ "id": "LN649992.1.1350",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicroarcula" ] 
+} 
+},
+{
+ "id": "AB534051.1.1519",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "GQ016413.1.1310",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria" ] 
+} 
+},
+{
+ "id": "JX883736.1.1463",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JQ237116.1.1471",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorussus" ] 
+} 
+},
+{
+ "id": "KC465591.1.1355",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halolamina" ] 
+} 
+},
+{
+ "id": "EF690585.1.1438",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorientalis" ] 
+} 
+},
+{
+ "id": "AB533880.1.1504",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "GQ861355.1.915",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "HQ400485.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "GU951430.1.1473",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubellus" ] 
+} 
+},
+{
+ "id": "GQ169802.1.1389",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Alphaproteobacteria", "D_3__Sphingomonadales", "D_4__Sphingomonadaceae", "D_5__Sphingomonas" ] 
+} 
+},
+{
+ "id": "EU409857.1.1279",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__uncultured", "D_4__uncultured bacterium", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HQ397387.1.1479",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Chromatiales", "D_4__Ectothiorhodospiraceae", "D_5__uncultured", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HG475319.1.907",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorussus" ] 
+} 
+},
+{
+ "id": "HQ425161.1.1358",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "KF452281.1.954",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halolamina" ] 
+} 
+},
+{
+ "id": "AB533937.1.1485",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AB533898.1.1518",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "FJ891036.1.1214",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionII", "D_4__FamilyII", "D_5__Chroococcidiopsis", "D_6__uncultured cyanobacterium" ] 
+} 
+},
+{
+ "id": "KF814306.1.920",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "EU911994.1.1223",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "APHM01010977.3.1297",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Haloarcula" ] 
+} 
+},
+{
+ "id": "AB663392.1.1473",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicrobium" ] 
+} 
+},
+{
+ "id": "EU869367.1.1235",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomarina", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "JX883112.1.1463",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "EF690638.1.1440",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halovenus", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "LN649952.1.1383",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halolamina" ] 
+} 
+},
+{
+ "id": "HQ400502.1.918",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halosimplex" ] 
+} 
+},
+{
+ "id": "AM981378.1.1352",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JX884638.1.1461",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "EU869382.1.1429",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AB534005.1.1513",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KJ534549.1.1470",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "JX883143.1.1486",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AB588757.1.1474",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halococcus" ] 
+} 
+},
+{
+ "id": "FN391257.1.1346",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "HQ400520.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Candidatus Halobonum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "JF950947.1.1388",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "JN714424.1.1473",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "EU506287.1.1363",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Alphaproteobacteria", "D_3__Rhizobiales", "D_4__Methylobacteriaceae", "D_5__Methylobacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF582944.1.1471",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicroarcula" ] 
+} 
+},
+{
+ "id": "EU869390.1.1440",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HM127111.1.1468",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HQ400513.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum" ] 
+} 
+},
+{
+ "id": "FN391286.1.1344",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubellus" ] 
+} 
+},
+{
+ "id": "FN391194.1.1355",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "HE604514.1.918",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorhabdus", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "CU467127.1.1340",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum" ] 
+} 
+},
+{
+ "id": "CU467120.1.1342",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum" ] 
+} 
+},
+{
+ "id": "CU467267.3.1356",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum" ] 
+} 
+},
+{
+ "id": "HM152714.1.1486",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Actinobacteria", "D_2__Actinobacteria", "D_3__Corynebacteriales", "D_4__Nocardiaceae", "D_5__Rhodococcus" ] 
+} 
+},
+{
+ "id": "EF106659.1.938",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum" ] 
+} 
+},
+{
+ "id": "AJ344311.1.918",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "HQ157635.1.921",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halococcus" ] 
+} 
+},
+{
+ "id": "JN714464.1.1470",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "KF673189.1.1469",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "HQ400465.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "FJ891051.1.1349",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionII", "D_4__FamilyII", "D_5__Chroococcidiopsis", "D_6__uncultured cyanobacterium" ] 
+} 
+},
+{
+ "id": "EU869377.1.1432",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HQ400517.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Candidatus Halobonum" ] 
+} 
+},
+{
+ "id": "CP007060.191367.192843",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "JX882977.1.1481",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "DQ432537.1.1395",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "FR869801.1.1333",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Alphaproteobacteria", "D_3__Rhizobiales", "D_4__Methylobacteriaceae", "D_5__Methylobacterium" ] 
+} 
+},
+{
+ "id": "JX883445.1.1493",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JX883895.1.1471",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JX882124.1.1468",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AM947471.1.1342",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum", "D_6__uncultured Halobacterium sp." ] 
+} 
+},
+{
+ "id": "HQ425149.1.1433",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "EU911982.1.1222",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JQ421328.1.1454",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Oceanospirillales", "D_4__Halomonadaceae", "D_5__Halomonas", "D_6__uncultured Halomonas sp." ] 
+} 
+},
+{
+ "id": "EF459702.1.1440",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "KC465599.1.1248",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "FN393516.1.1353",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HQ400523.1.914",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "JX884358.1.1470",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "EF106039.1.1370",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JN714457.1.1469",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "KC465587.1.1353",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured euryarchaeote" ] 
+} 
+},
+{
+ "id": "KC465611.1.1352",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Haloarcula", "D_6__uncultured euryarchaeote" ] 
+} 
+},
+{
+ "id": "KC465612.1.1351",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubellus" ] 
+} 
+},
+{
+ "id": "CU915217.1.1386",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Oceanospirillales", "D_4__Halomonadaceae", "D_5__Halomonas" ] 
+} 
+},
+{
+ "id": "HM126955.1.1468",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Chromatiales", "D_4__Ectothiorhodospiraceae", "D_5__uncultured", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF452248.1.954",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "EF105755.1.1364",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Chromatiales", "D_4__Ectothiorhodospiraceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "JX883000.1.1462",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JX881926.1.1475",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF870833.1.1360",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "AJ969892.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicrobium" ] 
+} 
+},
+{
+ "id": "AM947496.1.1351",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Haloarcula", "D_6__uncultured euryarchaeote" ] 
+} 
+},
+{
+ "id": "FN393530.1.1361",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF037922.1.1455",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__uncultured" ] 
+} 
+},
+{
+ "id": "JN432512.1.1356",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionIII", "D_4__FamilyI" ] 
+} 
+},
+{
+ "id": "JX884089.1.1458",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KC465592.1.1351",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "HQ425162.1.1424",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "CU467261.1.1348",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "JN714420.1.1471",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "AM947488.1.1344",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "AB533910.1.1502",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "EF106117.1.1342",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AF142882.1.992",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halolamina" ] 
+} 
+},
+{
+ "id": "DQ432015.1.1454",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Haloplanus" ] 
+} 
+},
+{
+ "id": "JX883890.1.1462",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Sphingobacteriia", "D_3__Sphingobacteriales", "D_4__Chitinophagaceae", "D_5__uncultured", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JN863500.1.1245",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Alphaproteobacteria", "D_3__Rhizobiales", "D_4__Methylobacteriaceae", "D_5__Methylobacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "LN649829.1.1060",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum" ] 
+} 
+},
+{
+ "id": "KC465602.1.1348",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomarina", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "AYLJ01000015.6615.8072",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "HQ157614.1.921",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halococcus", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "HQ425146.1.1450",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "AB576127.1.1467",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "EF106448.1.1390",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionIII", "D_4__FamilyI", "D_5__uncultured organism", "D_6__uncultured organism" ] 
+} 
+},
+{
+ "id": "EF106050.1.1350",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured Bacteroidetes bacterium" ] 
+} 
+},
+{
+ "id": "HQ400480.1.920",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Candidatus Halobonum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "KF717637.1.955",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "EF690625.1.1441",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "JX883276.1.1475",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HQ425152.1.1427",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halovenus", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "KM496562.1.1381",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "JX881443.1.1462",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JX884092.1.1463",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AB533842.1.1259",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HQ425153.1.1433",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "HM241039.1.1314",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionII", "D_4__FamilyII", "D_5__Chroococcidiopsis", "D_6__uncultured cyanobacterium" ] 
+} 
+},
+{
+ "id": "KF234378.1.1498",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "EU722669.1.1444",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "CU467128.1.1345",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum" ] 
+} 
+},
+{
+ "id": "JX881516.1.1465",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter" ] 
+} 
+},
+{
+ "id": "FJ592629.1.1395",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Sphingobacteriia", "D_3__Sphingobacteriales", "D_4__Chitinophagaceae", "D_5__Segetibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JX882498.1.1479",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF673170.1.1386",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Haloarcula" ] 
+} 
+},
+{
+ "id": "KF591573.1.1094",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "KF234338.1.1355",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "GQ861378.1.924",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomarina", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "AB533838.1.1509",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AB844668.1.1473",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halobacterium" ] 
+} 
+},
+{
+ "id": "HM159604.1.1374",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halobacterium" ] 
+} 
+},
+{
+ "id": "FJ890991.1.1350",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionIV", "D_4__FamilyI" ] 
+} 
+},
+{
+ "id": "EU722658.1.1435",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "FN994968.1.1344",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum" ] 
+} 
+},
+{
+ "id": "HQ215546.1.1474",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "GQ861373.1.917",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "FJ790610.1.1311",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionII", "D_4__FamilyII", "D_5__Chroococcidiopsis", "D_6__uncultured cyanobacterium" ] 
+} 
+},
+{
+ "id": "AF015964.1.1050",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halolamina" ] 
+} 
+},
+{
+ "id": "JX884839.1.1462",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HQ425213.1.1492",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "FN391240.1.1345",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halobellus", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "HQ425172.1.1426",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "FN393497.1.1351",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "HQ400533.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Candidatus Halobonum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "EU869371.1.1242",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Nanohaloarchaeota", "D_2__uncultured haloarchaeon", "D_3__uncultured haloarchaeon", "D_4__uncultured haloarchaeon", "D_5__uncultured haloarchaeon", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "JX883459.1.1476",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF673167.1.1439",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "EF106688.1.996",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "AY987828.1.1441",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halobacterium" ] 
+} 
+},
+{
+ "id": "JX883165.1.1465",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AJ344314.1.918",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "AB533952.1.1522",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JN714448.1.1473",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halobacterium" ] 
+} 
+},
+{
+ "id": "AB454050.1.1425",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicrobium" ] 
+} 
+},
+{
+ "id": "EU869422.1.1447",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__TM6", "D_2__uncultured bacterium", "D_3__uncultured bacterium", "D_4__uncultured bacterium", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "FR733704.1.1480",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Alphaproteobacteria", "D_3__Rhodospirillales", "D_4__Rhodospirillaceae", "D_5__Rhodovibrio", "D_6__Rhodovibrio sodomensis" ] 
+} 
+},
+{
+ "id": "FN391256.1.1340",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "AB534154.1.972",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "AM947450.1.1345",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "HQ400452.1.918",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomarina", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "AM947502.1.1345",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum", "D_6__uncultured Halobacterium sp." ] 
+} 
+},
+{
+ "id": "KM258096.1.1031",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halobacterium" ] 
+} 
+},
+{
+ "id": "GQ374923.1.1446",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Nanohaloarchaeota", "D_2__uncultured haloarchaeon", "D_3__uncultured haloarchaeon", "D_4__uncultured haloarchaeon", "D_5__uncultured haloarchaeon", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "JX884811.1.1468",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF814650.1.1483",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Sphingobacteriia", "D_3__Sphingobacteriales", "D_4__Chitinophagaceae", "D_5__uncultured", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KC465586.1.1352",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Haloarcula", "D_6__uncultured euryarchaeote" ] 
+} 
+},
+{
+ "id": "CU467410.1.1354",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "GQ861367.1.915",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomarina", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "KM453695.1.1471",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "FN391292.1.1351",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "DQ432493.1.1400",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "FN391290.1.1341",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Haloarcula" ] 
+} 
+},
+{
+ "id": "HQ400559.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "EF106344.1.1451",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Planctomycetes", "D_2__Phycisphaerae", "D_3__Phycisphaerales", "D_4__Phycisphaeraceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "KJ817648.1.1496",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF037375.1.1456",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionII", "D_4__FamilyII", "D_5__Chroococcidiopsis", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KF650689.1.1017",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halolamina" ] 
+} 
+},
+{
+ "id": "APHM01017498.1.1009",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "JX098799.1.1337",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Actinobacteria", "D_2__Actinobacteria", "D_3__Corynebacteriales", "D_4__Nocardiaceae", "D_5__Nocardia" ] 
+} 
+},
+{
+ "id": "JX884312.1.1480",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AB766179.1.1471",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicroarcula" ] 
+} 
+},
+{
+ "id": "FN391272.1.1348",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured euryarchaeote" ] 
+} 
+},
+{
+ "id": "HQ400562.1.919",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomarina", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "JN714407.1.1472",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicrobium" ] 
+} 
+},
+{
+ "id": "GQ374958.1.1442",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halococcus" ] 
+} 
+},
+{
+ "id": "AJ969889.1.918",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicroarcula" ] 
+} 
+},
+{
+ "id": "EU365395.1.1098",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "JX883469.1.1474",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "CU467136.1.1339",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "HQ425209.1.1500",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "AGNT01000024.7597.9060",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Nanohaloarchaeota", "D_2__uncultured haloarchaeon", "D_3__uncultured haloarchaeon", "D_4__uncultured haloarchaeon", "D_5__uncultured haloarchaeon", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "JX883832.1.1478",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JX883632.1.1475",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "KM496558.1.1391",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "AB533906.1.1485",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "JN038029.1.1050",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "KF234372.1.1441",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Chloroplast" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU79",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halovenus" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU70",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU71",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubrum" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU72",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicrobium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU73",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU74",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU76",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Chloroplast" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU77",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomarina", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU8",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU0",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Cyanobacteria", "D_3__SubsectionIII", "D_4__FamilyI" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU1",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU2",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halosimplex" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU4",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halovenus", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU5",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU6",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU7",
+"metadata": {
+ "taxonomy": "Unassigned" 
+} 
+},
+{
+ "id": "New.ReferenceOTU68",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU66",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU65",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Salinarchaeum" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU63",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halococcus" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU61",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Chromatiales", "D_4__Ectothiorhodospiraceae", "D_5__uncultured", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU60",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Nanohaloarchaeota", "D_2__uncultured haloarchaeon", "D_3__uncultured haloarchaeon", "D_4__uncultured haloarchaeon", "D_5__uncultured haloarchaeon", "D_6__uncultured haloarchaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU18",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU19",
+"metadata": {
+ "taxonomy": "Unassigned" 
+} 
+},
+{
+ "id": "New.ReferenceOTU13",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU10",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU16",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU17",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU14",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU15",
+"metadata": {
+ "taxonomy": "Unassigned" 
+} 
+},
+{
+ "id": "New.ReferenceOTU80",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Nanohaloarchaeota", "D_2__uncultured archaeon", "D_3__uncultured archaeon", "D_4__uncultured archaeon", "D_5__uncultured archaeon", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU83",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU82",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU85",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU84",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicrobium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU87",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU86",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU88",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU38",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Chloroplast" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU39",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Chloroplast" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU37",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Haloarcula", "D_6__uncultured euryarchaeote" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU30",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halobellus" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU31",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Deltaproteobacteria", "D_3__Desulfuromonadales", "D_4__GR-WP33-58", "D_5__uncultured bacterium", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU23",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU22",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Salinarchaeum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU21",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halosimplex" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU20",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Proteobacteria", "D_2__Gammaproteobacteria", "D_3__Chromatiales", "D_4__Ectothiorhodospiraceae", "D_5__uncultured", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU27",
+"metadata": {
+ "taxonomy": "Unassigned" 
+} 
+},
+{
+ "id": "New.ReferenceOTU26",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU25",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halomicrobium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU29",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter", "D_6__uncultured bacterium" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU28",
+"metadata": {
+ "taxonomy": "Unassigned" 
+} 
+},
+{
+ "id": "New.ReferenceOTU54",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU55",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU53",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU51",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Bacteroidetes", "D_2__Cytophagia", "D_3__Order II", "D_4__Rhodothermaceae", "D_5__Salinibacter" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU58",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Natronomonas" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU45",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU44",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Nanohaloarchaeota" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU47",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halapricum", "D_6__uncultured archaeon" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU46",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__Halorubellus" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU40",
+"metadata": {
+ "taxonomy": [ "D_0__Bacteria", "D_1__Cyanobacteria", "D_2__Chloroplast" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU43",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU42",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae" ] 
+} 
+},
+{
+ "id": "New.ReferenceOTU49",
+"metadata": {
+ "taxonomy": [ "D_0__Archaea", "D_1__Euryarchaeota", "D_2__Halobacteria", "D_3__Halobacteriales", "D_4__Halobacteriaceae", "D_5__uncultured", "D_6__uncultured archaeon" ] 
+} 
+} 
+],
+"columns": [
+ {
+ "id": "SG1-TOP-2016-02mt-13a",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-9b",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-13b",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-17b",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-2-2",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-1b",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-1a",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-10-1",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-17a",
+"metadata": null 
+},
+{
+ "id": "SG1-BOT-2016-02-9-3",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-1-2",
+"metadata": null 
+},
+{
+ "id": "SG1-BOT-2016-02-8-1",
+"metadata": null 
+},
+{
+ "id": "SG1-BOT-2016-02-8-3",
+"metadata": null 
+},
+{
+ "id": "SG1-BOT-2016-02-9-1",
+"metadata": null 
+},
+{
+ "id": "SG1-BOT-2016-02-9-2",
+"metadata": null 
+},
+{
+ "id": "SG1-BOT-2016-02mt-1",
+"metadata": null 
+},
+{
+ "id": "SG1-TOP-2016-02mt-3-1",
+"metadata": null 
+},
+{
+ "id": "SG1-BOT-2016-02-8-2",
+"metadata": null 
+} 
+],
+"data": [
+ [  2.591, 3.5836,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.3992, 4.1279, 3.5176, 3.6205,  2.591, 2.6793, 2.3266, 3.2332,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  3.466,      0,      0, 4.5606, 6.4334,      0,      0,      0, 3.8413, 3.3589, 3.2661, 3.7887, 3.4994, 3.3589, 3.1906,      0,      0,      0 ],
+[      0,      0, 2.1649, 2.7333,      0,      0,      0,      0,      0,      0,      0, 3.7887,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0, 6.2551,      0,      0,      0,      0,      0,      0, 4.7356,      0,      0,      0, 3.1597, 4.5011,      0 ],
+[      0, 3.5836,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0, 2.1649, 2.7333,      0,      0,      0,      0, 4.5374,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0, 3.1751,  2.379,      0,      0,      0,      0,      0,      0,      0,      0, 5.7265,      0 ],
+[      0,      0, 2.1649,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[ 4.3992, 6.0647, 5.2975, 4.5606, 6.0515, 6.0414, 4.6494,   4.46,  7.552,      0,  5.149,      0, 4.4342, 3.3589,      0, 4.6328, 5.3205,      0 ],
+[ 6.5149,  6.284, 7.3944, 6.9026,      0, 4.1057, 7.2631, 3.2332, 5.8772, 3.3589,  5.149, 4.7356, 5.7155, 4.8469, 6.0453,  6.011,  4.195, 5.3764 ],
+[      0, 2.6992,      0,      0,      0, 2.6793,      0,  2.379,      0, 5.2493, 2.4088,      0, 3.4994, 3.3589, 4.6662, 3.1597, 4.9682,      0 ],
+[  7.425, 8.7094, 5.0161, 2.7333, 6.2551, 5.2794, 4.8636, 3.2332, 7.5175,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 2.6992, 2.1649,      0,  2.591,      0, 2.3266,  2.379,      0,      0,      0,      0,      0,      0,      0,      0, 3.2717, 4.8087 ],
+[ 4.0068, 5.6568, 3.5176, 4.1658,      0, 5.4674, 4.6494, 3.7661, 2.4448,      0, 3.2661,      0,      0, 3.3589,      0, 4.0766,      0,      0 ],
+[      0, 2.6992,      0, 2.7333,      0,      0, 4.0929,      0, 2.4448,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,  3.466,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[  2.591,      0, 2.1649,      0,      0,      0,      0,  2.379,      0,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[ 5.3646, 7.5948, 8.4344, 6.3237, 7.0946, 7.3502, 6.0281, 6.4795, 8.0643,      0,  6.765, 5.7082, 4.4342,      0,      0, 3.1597, 9.2962,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0, 2.4448,      0, 2.4088,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.7887, 3.4994,      0,      0,      0,      0,      0 ],
+[ 6.0515, 6.5608, 6.8138, 4.1658,  6.926,  3.562, 7.4734, 5.6843,  5.005, 3.3589, 5.9389,      0,      0,      0,      0,      0, 6.8272, 3.8593 ],
+[ 8.4418,  9.133, 8.0542, 8.3851, 6.9845, 7.3502, 8.3851, 8.4327, 7.6188, 4.8469, 7.2051, 6.8628, 6.5513, 5.2493, 5.3803, 6.8088, 7.9778, 6.0995 ],
+[      0, 2.6992,      0,      0,      0,  3.562,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  6.347, 6.9293, 6.7684, 7.5503,      0, 6.0414, 6.3456, 5.2785, 5.8772,      0, 5.3144,      0,      0, 3.3589,      0, 3.1597, 6.7128,      0 ],
+[      0, 2.6992,      0,      0,      0, 2.6793, 6.5449,  2.379, 3.8413, 5.5637,      0,      0,      0,      0, 4.1094,      0,      0,      0 ],
+[ 6.2551, 7.2747, 6.3423, 5.3416, 5.5306, 5.6337,  7.568, 6.1785, 4.5374,      0, 6.0368, 5.7082,      0,      0, 4.1094,      0, 3.2717, 3.8593 ],
+[  3.466, 3.5836, 2.9943, 3.6205, 4.3992, 5.2794, 3.7058,      0, 2.4448,      0, 3.2661,      0,      0, 4.8469,      0, 5.6034,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,  2.379, 3.3058,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 4.1279,      0,      0,  2.591,      0, 3.1751,  2.379,      0,      0, 2.4088,      0,      0,      0,      0, 6.5885,      0,      0 ],
+[ 6.6654, 6.7197, 7.0215, 4.1658,  6.347, 6.5375, 7.3367, 5.1133,  5.192, 3.3589, 6.2962,      0,      0,      0,      0, 3.1597, 6.3024,      0 ],
+[ 4.9612, 3.5836, 6.4612, 3.6205, 5.5306, 2.6793, 5.8386, 5.9026,  4.231, 3.3589, 4.4952, 4.7356, 3.4994,      0,      0, 3.1597, 8.2886, 5.7828 ],
+[      0,      0, 2.1649, 3.6205,      0,      0, 3.1751,      0, 3.3058,      0, 3.8002, 3.7887,      0,      0,      0,      0, 2.4139,      0 ],
+[      0,      0,      0, 4.5606,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[ 7.9201, 8.4621, 6.2128, 6.2181, 8.4829, 7.3502, 7.3367, 5.2785, 7.6826,      0, 6.2148, 7.4958,  5.974, 4.2868, 3.1906, 5.0332, 7.8751,      0 ],
+[      0, 4.5222,      0,      0,  2.591,      0, 3.7058,  2.379, 2.4448,      0,      0,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[  2.591, 2.6992,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 4.9967,      0, 3.1906,      0, 2.4139, 3.8593 ],
+[ 4.0068,      0, 4.6662, 3.6205, 4.7074, 2.6793, 2.3266,   4.46,  4.231,      0, 2.4088,      0, 3.4994, 3.3589,      0, 3.1597,  3.806, 3.8593 ],
+[      0,      0, 4.4532,      0,      0,      0,      0,   4.46, 3.8413,      0, 3.8002,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591, 4.1279, 4.2033, 2.7333,  3.466,      0, 3.7058, 4.1544, 3.8413,      0,      0,      0,      0,      0,      0, 4.6328,      0, 3.8593 ],
+[  2.591, 2.6992, 2.9943,      0,      0,      0, 2.3266,  2.379,      0,      0, 3.2661, 3.7887,      0,      0,      0,      0,      0, 3.8593 ],
+[  2.591, 3.5836, 3.9008, 2.7333, 5.8145,  3.562, 7.1857, 5.2785, 2.4448, 4.2868, 3.8002,      0, 6.1931, 5.2493, 3.1906, 5.3463, 4.9682, 3.8593 ],
+[      0,      0,      0, 2.7333,  2.591,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0, 4.1658,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[      0, 2.6992, 2.1649, 4.8703,  2.591,  3.562, 2.3266,  2.379, 2.4448,      0,      0,      0,      0,      0, 3.1906, 3.1597, 2.4139,      0 ],
+[ 6.5921, 5.8059, 5.2975,      0,  5.177, 2.6793, 2.3266, 5.2785, 6.5597,      0, 4.4952, 4.7356, 3.4994,      0, 3.1906, 4.0766, 6.5885,      0 ],
+[ 8.0351, 10.022, 8.8914, 6.3237, 8.0072, 7.1451, 9.1981, 8.6744, 8.3264,      0, 10.738, 5.7082, 4.4342, 5.8216,  5.067, 6.7029, 7.7645,      0 ],
+[  2.591,      0,      0,      0,      0,      0, 2.3266,      0, 2.4448, 3.3589,      0, 3.7887, 4.4342,      0,      0, 4.0766,      0,      0 ],
+[  2.591, 8.2441, 6.9419, 4.5606, 6.6654, 4.1057, 8.0337, 7.1257, 9.7006,      0,  6.875, 3.7887,      0, 5.5637, 4.6662, 6.5885, 5.1551,      0 ],
+[      0,      0,      0,      0,      0,      0, 2.3266,      0,      0,      0, 2.4088,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[      0,      0,      0, 2.7333,      0, 2.6793, 3.1751,      0,      0,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591, 4.1279, 3.5176,      0,      0, 2.6793, 3.1751,      0, 2.4448,      0,      0,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[ 4.3992,      0,      0,      0,  2.591,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.0068, 2.6992, 6.1434, 4.1658, 7.0406, 2.6793, 4.3978, 5.4268,  4.231, 6.0403, 4.9622, 7.2747,  5.974, 3.3589, 5.8558, 5.0332, 7.8751, 5.3764 ],
+[  2.591, 2.6992, 2.1649,      0,      0, 4.1057, 3.1751,  2.379, 2.4448,      0,      0, 3.7887,      0, 3.3589, 3.1906,      0, 2.4139,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0, 2.4448,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.3992, 6.1785, 5.4199, 4.1658,  6.347, 5.4674,   5.05, 5.4268,      0, 6.9233, 5.4628, 5.7082, 5.4004, 5.2493,  5.067, 5.8216, 4.7535, 3.8593 ],
+[ 7.5464, 8.9844, 8.5596, 8.6515, 6.9845, 9.1094, 8.5642, 8.5983, 5.6406,      0, 8.1789, 6.5037, 6.7017,      0, 5.6375,      0, 6.5221, 5.7828 ],
+[ 4.0068, 3.5836, 3.9008,      0, 4.7074, 4.8087, 3.7058, 3.2332, 4.7901, 3.3589, 2.4088,      0, 3.4994,      0,  5.067, 3.1597,  4.195,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.3589,      0, 3.7887,      0,      0,      0,      0,      0,      0 ],
+[      0, 4.1279,      0,      0,      0,      0,      0,      0, 3.8413,      0,      0,      0,      0, 3.3589,      0, 3.1597,      0,      0 ],
+[      0,      0, 2.1649, 2.7333,  3.466, 2.6793, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[  3.466,      0, 3.5176, 2.7333, 4.0068, 4.4996, 2.3266,      0,      0, 3.3589, 4.9622, 5.3024, 5.4004, 3.3589, 4.1094, 6.1785, 4.7535, 3.8593 ],
+[      0,      0,      0, 2.7333,      0,      0,      0,      0,      0,      0,      0, 4.7356, 4.9967,      0,      0,      0,  3.806,      0 ],
+[ 5.5306, 5.4904, 7.1685, 4.8703, 6.0515, 6.6191, 6.0281, 7.3279, 5.7638, 6.9233,  5.149, 6.8628, 5.4004, 5.5637, 6.7373, 7.0866,  3.806, 6.7696 ],
+[  3.466,      0, 3.5176, 3.6205,      0, 4.1057,      0, 3.2332,      0,      0,  6.875,      0,      0,      0,      0,      0,      0,      0 ],
+[ 7.2456, 6.8628, 7.8515, 7.3146, 9.7571, 8.8299, 9.2842, 9.2231, 7.9129, 12.343, 8.3411, 9.9486, 10.882, 9.2793,   10.5, 9.9899, 9.9293, 9.4863 ],
+[      0,      0, 2.1649, 3.6205,  2.591,      0, 3.7058,      0, 2.4448,      0, 2.4088, 3.7887,      0,      0,      0,      0,      0,      0 ],
+[ 4.0068, 2.6992, 2.9943,      0,      0, 2.6793, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 2.6992,      0,      0,      0, 2.6793,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.3992, 5.3024, 5.4199, 5.1251, 4.7074, 4.4996, 4.3978, 5.4268,  5.005,      0, 3.2661,      0, 5.4004,      0,      0, 5.8216, 4.7535,      0 ],
+[  2.591,      0, 2.1649,      0,      0,  3.562,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  3.466, 2.6992, 3.9008, 4.1658, 6.1569,      0, 2.3266, 4.7121, 5.8772,      0, 3.8002,      0,      0,      0,      0, 3.1597,  3.806,      0 ],
+[ 7.5464, 8.8011, 7.1331, 6.2181, 9.5308, 7.7266,  7.061, 5.5613, 8.2013,      0, 7.5418,   8.27, 5.7155,  6.398,      0, 7.0866, 8.3851, 4.8087 ],
+[ 7.2926, 9.0606, 9.0889, 8.1471, 7.9201, 8.1674, 8.4855, 8.9069,   8.77, 8.4246, 8.3218, 7.7744,  6.838, 7.3075, 8.0288, 7.3895,  8.328, 7.9322 ],
+[ 6.4334, 5.8059, 5.8265, 5.1251, 4.3992, 5.9179, 7.1038, 8.8156, 5.3576, 5.2493, 4.4952,      0, 4.4342,      0, 3.1906, 4.6328, 5.3205,      0 ],
+[      0, 2.6992,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[  5.177, 3.5836, 5.5328,      0, 4.9612,  3.562, 5.4975,      0, 3.3058,      0, 4.9622,      0, 3.4994,      0,      0,      0,  3.806,      0 ],
+[      0, 3.5836,      0,      0,      0,      0, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 2.6992,      0,      0, 5.9379,      0,      0,      0,  4.231,      0,      0,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[ 8.3995, 9.6886, 7.2697, 6.9026, 7.7621, 7.5297, 6.4151,   4.46, 9.5115,      0, 7.0728,      0,      0,      0, 3.1906,      0, 4.5011,      0 ],
+[      0, 2.6992,      0,      0,  2.591,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0, 2.7333,      0, 2.6793, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 6.2551, 7.0539, 7.8515, 6.5141, 6.7351, 6.6963, 6.3456, 6.2598, 6.5597, 5.2493, 6.2962, 5.7082, 3.4994, 5.2493, 4.1094, 5.3463, 6.3794, 5.3764 ],
+[  2.591, 2.6992, 2.9943,      0,  3.466, 4.1057, 3.7058, 3.2332,  4.231, 5.8216,      0, 4.7356, 4.9967, 5.8216,      0, 5.0332, 3.2717, 3.8593 ],
+[ 6.6654, 8.8534, 4.8517, 4.1658, 7.2926, 5.2794, 7.4404, 5.5613, 6.9709,      0, 7.7583, 5.3024, 4.9967,      0,  5.067,      0, 7.9528,      0 ],
+[  2.591, 2.6992, 4.6662, 2.7333,  2.591, 2.6793, 4.6494, 4.9266, 5.3576, 4.2868,      0, 6.0246,      0, 4.2868, 4.1094,      0, 3.2717,      0 ],
+[      0, 2.6992, 3.9008,      0,      0,      0,      0,      0,      0,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.3992, 5.3024, 6.9419, 4.8703, 5.9379,  6.451, 4.8636, 4.1544, 4.7901, 5.5637, 6.2962, 3.7887,      0, 6.0403, 5.6375,  6.011, 4.9682, 3.8593 ],
+[      0,      0,      0, 2.7333,      0,      0,      0,  2.379,      0,      0, 2.4088,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[ 4.3992, 4.1279, 5.1636, 5.1251, 4.0068,  3.562, 5.2151, 5.9026,  5.005, 3.3589, 4.4952, 3.7887, 3.4994, 3.3589, 4.1094, 3.1597,  3.806, 3.8593 ],
+[  2.591, 6.3823, 5.1636, 2.7333,      0,      0, 3.7058,      0, 3.3058,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  5.177,      0,      0,      0,      0,      0, 3.7058, 3.2332,  4.231, 5.5637,      0,      0,      0,      0,      0,      0, 3.2717,      0 ],
+[  2.591, 4.8315, 4.6662, 4.1658, 4.3992,  3.562, 4.3978, 3.7661, 3.3058, 3.3589, 2.4088,      0,      0,      0, 4.1094, 3.1597, 3.2717,      0 ],
+[  2.591, 7.8565,      0, 2.7333,      0, 2.6793, 6.9715,  2.379,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.7074,      0,      0,      0,      0,      0,      0,      0, 2.4448,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,  4.231,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0, 2.7333,      0,      0,      0,      0,      0,      0,      0, 3.7887, 3.4994,      0,      0,      0,      0,      0 ],
+[  6.926,  8.393, 8.2319, 7.4136, 6.7351, 7.3502, 8.0114, 7.9099, 7.9129, 6.2302, 7.6071,      0, 5.4004, 4.2868, 5.6375, 6.8088,  7.793, 5.3764 ],
+[      0,      0,      0,      0,  2.591, 2.6793,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 2.4139, 3.8593 ],
+[ 8.3336,   9.46,  9.303, 8.0273,  8.288, 8.8127, 8.7506, 8.9687, 10.066, 6.2302, 8.2419, 8.3287, 7.9567,   8.26, 7.9361,    9.4, 9.3546, 8.6668 ],
+[      0,      0, 2.1649, 2.7333,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0, 3.2332,      0,      0,      0,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[      0,      0, 3.5176,      0, 4.0068, 5.0632, 3.7058,      0, 3.8413, 3.3589, 2.4088,      0, 4.4342,      0, 4.1094, 4.6328, 4.5011,      0 ],
+[      0,      0, 2.1649,      0,  2.591,      0, 3.7058, 3.2332,      0,      0,      0, 3.7887,      0,      0,      0,      0,      0,      0 ],
+[      0,      0, 2.1649,      0,  2.591,      0,      0,      0, 3.8413,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591, 3.5836,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  3.466, 4.5222, 2.1649,      0,      0,      0, 2.3266, 3.2332, 2.4448,      0,      0,      0, 3.4994,      0,      0,      0,      0,      0 ],
+[      0, 5.6568, 6.3423,      0, 5.6795,      0, 4.3978,  2.379, 2.4448,      0, 5.3144,      0,      0, 4.2868,      0, 4.6328,      0,      0 ],
+[ 4.3992, 2.6992, 5.5328, 4.8703, 4.0068, 4.8087, 4.6494, 5.4268, 5.8772, 3.3589, 3.2661, 3.7887,      0,      0,      0, 4.6328, 4.9682, 3.8593 ],
+[      0,      0,      0,      0,  2.591,      0,      0,  2.379,      0,      0,      0, 3.7887,      0,      0,      0,      0,  4.195,      0 ],
+[ 4.9612, 5.3024, 5.0161, 3.6205, 6.7351, 5.7828, 4.8636, 5.6843, 6.8088,  8.123, 4.7475, 5.3024, 6.1931, 5.5637, 7.0343, 4.0766,  7.032, 5.3764 ],
+[ 6.1569,      0, 4.8517, 4.1658, 4.7074,  3.562, 3.7058, 3.2332,      0,      0, 2.4088, 4.7356, 6.9624,      0, 4.1094, 3.1597, 2.4139, 3.8593 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 2.4088,      0,      0, 4.8469, 3.1906,      0,      0,      0 ],
+[ 7.3381, 10.139, 5.1636, 6.9692, 4.7074, 4.1057, 5.3632, 5.2785, 7.1166,      0, 4.7475, 5.3024,      0,      0,      0,      0, 6.7712,      0 ],
+[  3.466, 4.1279, 3.5176, 2.7333,      0,      0, 2.3266, 3.2332, 3.3058,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 2.4088,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[  3.466,      0,      0,      0,      0, 2.6793,      0,  2.379,      0,      0,      0,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[      0, 2.6992,      0,      0,      0, 2.6793,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,  2.379,      0,      0,      0,      0, 3.4994,      0,      0,      0,      0,      0 ],
+[      0,      0, 2.1649,      0,      0,      0, 2.3266,      0,      0,      0,      0, 3.7887,      0, 3.3589,      0,      0,      0,      0 ],
+[      0, 2.6992, 3.5176, 2.7333,  3.466,      0,      0, 3.2332, 4.7901, 6.5483, 2.4088, 3.7887, 3.4994, 3.3589, 4.6662, 4.6328,  4.195,      0 ],
+[ 6.2551, 7.1123, 5.1636, 5.1251, 6.8016, 5.7828, 4.6494, 4.7121, 6.4169,      0, 5.8338, 3.7887,      0, 4.8469, 3.1906, 4.6328,  6.221,      0 ],
+[      0,      0,      0, 4.1658,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 3.5836,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  3.466, 3.5836,      0,      0,      0,      0, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 8.4625, 8.4844, 9.4894, 8.7304, 7.7951, 9.1784, 8.9973, 8.1635, 8.9099,  6.398, 8.1573,   7.15, 8.1782,  6.398, 6.0453,  8.123, 8.4037, 9.2822 ],
+[ 6.7351, 8.9039, 6.9823, 6.2181, 4.3992, 5.4674, 5.6204, 5.7976, 6.1721,      0, 7.3263, 3.7887, 3.4994, 4.2868, 3.1906, 5.8216,  3.806,      0 ],
+[  2.591, 3.5836, 3.5176,      0,      0,      0,      0, 3.2332,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.7074,      0, 4.4532, 2.7333,      0, 4.1057,      0, 4.1544,      0,      0,      0, 3.7887,      0,      0,      0, 4.0766,      0, 3.8593 ],
+[      0, 2.6992, 3.5176,      0,      0, 2.6793,      0,  2.379,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 7.8589, 9.8171, 8.9836, 7.9304, 8.9468,   8.14, 8.7506, 8.5825, 8.5309, 8.1701, 8.4339, 7.7744, 7.6948, 7.8023, 8.4537, 7.9942, 8.5935, 7.8501 ],
+[ 5.5306, 3.5836, 5.2975, 5.5298, 6.5149, 5.4674, 6.4151, 6.1785, 3.3058, 6.8088, 4.4952, 4.7356, 6.5513,  6.398, 5.3803, 6.5885, 5.3205, 5.3764 ],
+[  2.591,      0, 2.1649,      0,      0,      0, 2.3266,      0,      0, 3.3589,      0,      0,      0,      0,  5.067,      0,      0,      0 ],
+[ 8.1921, 8.9039, 9.6606, 7.7901, 8.5031, 7.6893, 8.9629, 5.1133, 8.5309, 3.3589, 8.3218, 3.7887,      0, 5.2493, 3.1906, 6.3285, 7.8482, 4.8087 ],
+[      0, 2.6992,      0,      0,  2.591,  3.562,      0,      0,  4.231,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.9612,      0, 3.5176, 2.7333,      0,  3.562, 2.3266,      0, 2.4448,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0, 2.4448,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[  5.177, 4.1279, 4.6662, 5.5298,  3.466, 5.7828, 4.0929, 5.2785, 4.5374, 7.3075, 5.4628, 4.7356, 5.7155,      0, 5.6375, 5.3463, 4.9682, 5.7828 ],
+[ 4.7074, 5.3024, 4.8517,      0, 5.3646, 5.4674, 4.8636, 4.1544,      0, 3.3589, 6.0368, 5.3024,      0,      0,      0,      0, 3.2717,      0 ],
+[      0, 2.6992,      0,      0,      0,      0,      0,      0, 2.4448,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  9.579, 11.223, 10.744, 9.9508, 10.092, 9.8538, 10.491, 10.416, 10.545, 7.6774, 9.6095, 8.6839, 8.4574, 8.7688, 8.6416, 10.012, 10.132, 6.9381 ],
+[      0,      0,      0, 2.7333,  2.591,      0, 3.1751, 3.2332,      0,      0,      0,      0,      0,      0,      0,      0, 3.2717,      0 ],
+[  3.466, 10.234,      0,      0,  2.591,      0, 5.8386,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591, 2.6992, 5.6375,      0,  3.466,  3.562, 4.0929, 3.2332,      0,      0, 5.5973,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.9612, 5.9411, 4.6662, 4.1658,  2.591, 5.2794, 4.8636, 5.6843, 4.5374,      0, 2.4088, 3.7887,      0, 4.8469,      0,      0, 4.7535,      0 ],
+[  2.591,      0, 3.9008, 2.7333, 4.0068,      0, 4.3978,      0, 3.8413,      0, 3.2661, 3.7887,      0,      0,      0, 4.0766,      0,      0 ],
+[      0, 4.1279,      0, 3.6205,  2.591,      0, 2.3266,  2.379,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 2.6992,      0,      0,  2.591,      0, 3.1751,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 5.8059, 3.9008, 2.7333,      0,  6.451,      0,  2.379, 2.4448,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 5.9379, 7.9557, 5.9125, 4.5606, 5.6795, 6.2607, 6.6056, 6.0923,  5.192,      0, 5.8338, 3.7887,      0,      0,      0,      0, 5.7265,      0 ],
+[  3.466, 2.6992,      0, 2.7333,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 6.5921, 7.0539,      0,      0, 6.0515, 4.4996, 4.3978, 3.2332,  5.192,      0, 3.8002,      0,      0,      0,      0,      0, 4.9682,      0 ],
+[      0, 3.5836, 2.1649, 3.6205,  2.591,      0, 3.7058,      0,      0,      0, 2.4088,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[ 9.3201, 10.323, 10.391, 9.8036, 9.9081,  9.205,  9.938, 10.095, 10.434, 6.5483, 8.8389, 8.1449, 8.4574, 8.9418, 8.3132, 10.098, 9.8705, 8.2206 ],
+[      0, 3.5836, 2.1649, 2.7333,  2.591,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0, 2.6793, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[  3.466, 4.5222, 2.9943, 2.7333, 4.7074, 4.4996, 4.0929, 4.7121, 3.8413, 4.2868,      0, 3.7887, 3.4994, 4.2868,      0, 4.0766, 3.2717, 5.3764 ],
+[      0, 2.6992,      0,      0,  3.466,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[  3.466, 4.1279, 2.1649, 2.7333,      0,      0, 4.0929,      0, 3.8413,      0,      0,      0,      0,      0,      0,      0, 3.2717,      0 ],
+[      0, 2.6992,      0,      0,  2.591, 2.6793,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  3.466, 4.8315, 2.9943,      0, 4.7074,  3.562, 4.3978,      0, 3.8413,      0,      0, 3.7887,      0,      0,      0, 4.0766, 3.2717,      0 ],
+[ 5.5306, 5.0861, 5.4199, 4.5606,  6.347, 2.6793, 6.0281,   4.46, 6.1721, 3.3589,      0,      0,      0,      0, 3.1906, 4.6328, 4.7535,      0 ],
+[ 4.9612, 7.5103, 4.4532, 3.6205, 4.9612, 4.1057, 4.3978, 5.6843,  5.506,      0,  6.516,      0, 3.4994,      0,      0,      0, 2.4139,      0 ],
+[  5.177, 4.5222, 5.6375, 4.8703, 6.9845, 5.4674,   5.05, 4.7121, 4.5374, 8.5722, 4.9622, 4.7356, 6.1931, 4.8469, 6.4987,  6.011, 4.5011, 3.8593 ],
+[ 4.0068, 2.6992, 3.5176, 4.1658, 5.3646, 5.2794, 3.1751, 3.7661, 4.5374, 7.5406, 4.4952, 5.3024, 3.4994,      0, 5.3803, 3.1597, 2.4139, 3.8593 ],
+[  2.591, 2.6992,      0, 3.6205,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0, 4.2868,      0,      0,      0,      0, 4.1094,      0,      0,      0 ],
+[ 4.7074,      0, 2.1649,      0, 4.0068, 2.6793, 7.2249, 3.2332, 3.8413, 7.3895, 2.4088, 3.7887, 4.4342,      0,  5.067,      0, 4.5011,      0 ],
+[  2.591,      0, 2.1649,      0,  2.591,      0,      0,      0, 3.3058,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591,      0, 3.5176, 3.6205,      0, 2.6793,      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.1597,      0, 3.8593 ],
+[ 4.3992, 5.8059, 2.9943,      0, 4.3992,  3.562, 4.8636,   4.46, 2.4448,      0,  5.149,      0,      0,      0,      0,      0, 5.1551,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,  2.379,      0, 4.8469,      0, 3.7887,  5.974, 3.3589, 3.1906, 5.0332, 4.7535,      0 ],
+[      0, 3.5836,      0,      0,  3.466,  3.562,      0, 3.7661, 2.4448,      0, 5.3144,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 2.6992, 2.1649, 5.5298,  2.591,      0, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0, 2.9943,      0,      0,  3.562, 2.3266,  2.379, 2.4448,      0,      0,      0,      0,      0, 3.1906, 3.1597, 2.4139,      0 ],
+[  2.591,      0,      0,      0,      0, 2.6793, 2.3266,      0, 2.4448,      0,      0, 3.7887, 3.4994,      0,      0,      0,      0,      0 ],
+[      0, 2.6992,      0,      0,      0,      0, 2.3266,      0, 2.4448,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591, 4.5222, 5.5328,      0,      0, 5.7828, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.0068, 2.6992, 2.1649, 3.6205,  5.177,  3.562, 2.3266,      0,  4.231, 5.8216, 3.2661, 4.7356, 6.7017,      0,  5.067, 3.1597, 5.3205, 6.5789 ],
+[      0,      0,      0,      0,      0, 2.6793,      0,      0,      0, 3.3589,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0, 2.1649,      0,      0,      0, 2.3266,  2.379, 3.8413,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591,      0, 2.1649,      0,      0,      0,      0,  2.379,      0,      0, 2.4088,      0, 3.4994,      0,      0, 3.1597, 3.2717,      0 ],
+[ 8.6366, 4.8315, 8.5053, 8.8052, 8.2167, 8.6668,   6.72, 6.3369, 6.6261, 8.4629, 6.5824, 9.7905, 8.6175, 7.3075,  7.424, 8.4521, 4.5011, 6.5789 ],
+[ 7.2926, 7.4662, 8.0916, 6.7595,  7.507, 7.4427,  7.061, 7.1257, 8.0401, 6.2302, 6.7066, 7.7744, 6.9624, 7.1281, 7.2805, 8.0813, 8.3084, 7.6703 ],
+[      0, 3.5836, 2.1649, 3.6205,      0,      0,      0,  2.379,      0,      0,      0, 3.7887,      0,      0, 3.1906, 3.1597,  3.806, 4.8087 ],
+[      0, 4.8315, 2.9943,      0, 4.3992,      0, 6.1142,  2.379, 2.4448, 7.2206, 2.4088,      0,      0,      0, 4.6662, 3.1597,      0,      0 ],
+[      0, 2.6992,      0, 2.7333,      0,      0, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0, 6.0403,      0,      0, 4.4342,      0,      0,      0,      0,      0 ],
+[      0, 3.5836,      0,      0,  2.591,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0, 2.7333,      0,  3.562,      0,  2.379,      0, 7.0293,      0, 3.7887, 3.4994, 3.3589,      0, 3.1597,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.3589,      0,      0, 3.4994, 3.3589, 3.1906, 3.1597, 4.5011,      0 ],
+[      0, 2.6992, 2.1649,      0,      0, 2.6793, 2.3266,      0,      0,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 4.5222,      0,      0,      0,      0, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 3.5836,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.2717,      0 ],
+[      0, 2.6992,      0,      0,      0,      0, 2.3266, 3.2332,      0,      0, 3.2661, 4.7356,      0,      0,      0, 3.1597,      0,      0 ],
+[      0, 3.5836,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0, 4.2033, 4.1658,  2.591, 4.8087, 3.1751,   4.46,  4.231, 3.3589, 2.4088,      0,      0,      0,      0,      0,  3.806,      0 ],
+[  2.591, 5.8059,      0, 3.6205, 6.0515, 4.1057, 4.8636,  2.379, 2.4448,      0,      0,      0,      0,      0, 3.1906,      0, 4.9682, 5.3764 ],
+[      0,      0, 2.1649, 2.7333, 4.9612, 4.4996, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[      0,      0, 3.5176,      0,      0, 2.6793,      0,  2.379, 3.3058,      0,      0,      0, 3.4994, 5.5637,      0,  6.011,      0, 3.8593 ],
+[ 4.0068, 4.1279, 3.5176, 5.3416,  2.591,      0, 5.4975, 4.1544,      0,      0, 4.9622, 4.7356,      0,      0,      0,      0, 2.4139,      0 ],
+[      0, 2.6992, 2.1649,      0,      0, 2.6793,      0,      0, 2.4448,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591, 3.5836, 3.9008, 3.6205, 4.7074,      0,      0, 3.2332, 3.8413, 4.8469, 3.2661,      0,      0,      0, 4.6662, 5.3463, 5.4689,      0 ],
+[ 4.0068,      0, 3.5176,      0, 4.0068,      0,      0,      0,      0, 3.3589,      0, 3.7887,      0, 3.3589,      0, 3.1597,      0, 5.7828 ],
+[ 7.2456, 6.9929, 7.0969, 7.9304, 8.0625, 7.9638, 6.6056, 6.9893, 7.6188, 10.189, 6.9773, 8.0079, 7.3746, 4.2868, 7.8874, 6.4644, 5.4689, 7.3502 ],
+[ 4.0068, 2.6992, 4.2033, 4.1658,      0, 5.9179, 2.3266, 3.7661, 3.8413, 6.2302, 3.8002, 5.3024, 7.5436, 5.2493, 4.6662, 7.6396,      0, 3.8593 ],
+[  2.591, 7.7128, 4.6662,      0, 6.5921, 5.2794, 4.8636, 6.0923, 6.3399,      0, 5.4628, 3.7887, 4.4342, 5.2493,      0, 6.1785,  6.221,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 4.2868,      0, 5.3463,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 5.3024,      0,      0,      0,      0,      0,      0 ],
+[ 5.5306, 6.0647, 6.6229, 6.8328, 5.6795, 7.2513, 6.1142,   6.41, 4.5374, 4.2868, 5.9389, 3.7887, 3.4994,      0, 4.6662, 5.0332, 4.7535, 5.7828 ],
+[      0, 2.6992,      0,      0,  2.591, 2.6793,      0,  2.379,      0, 3.3589,      0, 3.7887, 3.4994,      0,      0,      0,  3.806,      0 ],
+[      0,      0,      0,      0,      0, 2.6793,      0,  2.379,      0,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0, 4.5606,  2.591,      0,      0,      0,      0,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[  3.466,      0,      0, 2.7333,      0, 2.6793, 3.1751,      0, 3.3058,      0,      0,      0,      0,      0, 3.1906, 3.1597,      0,      0 ],
+[      0, 5.8059, 2.9943,      0, 4.0068, 4.1057, 4.0929,   4.46, 4.7901,      0, 4.4952, 3.7887, 3.4994, 3.3589,      0, 5.3463, 5.3205,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 5.3463,      0,      0 ],
+[  3.466, 4.8315, 3.9008, 4.1658, 4.7074,  3.562, 4.8636, 3.2332, 3.8413,      0, 3.2661, 3.7887,      0,      0,      0,      0, 4.5011,      0 ],
+[  3.466, 5.4904, 4.6662, 2.7333,  7.197, 2.6793, 5.2151, 6.0006, 6.4901,      0,      0,      0,      0, 3.3589,      0, 5.3463, 3.2717,      0 ],
+[ 5.5306, 9.6692, 7.0969,      0, 8.1671, 7.4427, 6.4151, 7.0817, 7.5175, 4.2868, 6.3732, 5.3024, 3.4994, 6.9233, 4.6662, 8.0384, 7.7645,      0 ],
+[      0,      0,      0,      0,      0, 4.4996, 3.1751, 3.2332, 2.4448, 9.9672, 2.4088, 5.7082, 7.8317, 6.2302, 7.6742, 6.9075, 3.2717, 3.8593 ],
+[      0,      0,      0,      0, 4.0068, 2.6793, 2.3266,  2.379,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 2.6992,      0,      0,      0,      0,      0,      0,      0,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.7887,      0,      0, 4.6662,      0,      0,      0 ],
+[  2.591, 5.3024, 4.2033, 4.5606,  2.591, 4.1057,      0,      0, 5.8772,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0, 2.9943, 2.7333,  2.591,      0,      0,      0, 2.4448,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[      0, 3.5836, 4.8517,      0,      0,      0,      0,      0, 2.4448,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 5.3646, 8.2441, 4.4532, 4.8703,      0, 5.2794, 6.3456, 4.7121, 6.1721,      0,  6.765,      0,      0,      0,      0,      0, 3.2717,      0 ],
+[      0,      0,      0,      0,  3.466,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,  4.195,      0 ],
+[ 11.298, 12.421,  12.49, 11.698, 11.517,   11.6, 11.901, 12.125, 12.188, 11.497, 11.991, 11.039, 10.698, 10.671, 11.163, 11.394, 11.947, 10.866 ],
+[  3.466, 4.1279, 2.1649, 3.6205,  2.591, 4.1057, 3.1751,      0, 2.4448,      0,      0,      0,      0,      0,      0, 3.1597, 2.4139,      0 ],
+[  2.591,      0,      0,      0,  3.466,      0,      0,      0, 2.4448,      0, 5.5973,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,  3.806,      0 ],
+[      0,      0, 2.9943, 2.7333,      0,      0, 2.3266,      0, 3.8413,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[ 8.2408, 8.1356, 7.3334, 7.1522, 5.9379, 7.5713, 7.9424, 7.9836, 6.0804, 7.3895, 7.1182, 3.7887, 8.4145, 7.2206, 7.8874,  8.547, 7.9014, 8.9292 ],
+[ 5.8145, 4.8315, 6.8578, 6.6822,  5.177, 6.7696, 6.0281, 6.9893,  4.231, 7.0293, 4.9622, 6.0246, 6.3833, 6.9233, 6.0453, 6.7029, 5.7265, 6.5789 ],
+[      0, 3.5836, 3.5176,      0, 4.7074, 4.1057, 3.7058, 5.1133,      0,      0, 6.6458,      0,      0,      0,      0,      0,  3.806,      0 ],
+[ 5.6795,  8.078, 8.1635, 7.3146, 7.0406,  6.359, 8.2584, 4.7121, 8.8276, 3.3589, 6.0368, 5.7082, 3.4994, 3.3589,  5.067, 6.3285, 6.5885, 5.7828 ],
+[      0,      0,      0,      0,      0,      0,      0,  2.379,  4.231,      0,      0,      0,      0,      0,      0,      0, 2.4139,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,  2.379,      0,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[ 7.6582, 7.0539, 7.3944, 7.1522, 6.7351, 7.8669, 8.3851, 9.6874, 3.3058,      0, 7.0258, 5.3024, 6.5513, 4.2868,      0, 3.1597, 5.8399,      0 ],
+[ 9.5503,  10.74, 9.2211, 8.8588, 9.3087,  9.586, 9.5775, 10.122, 8.2013, 9.2357, 8.4518, 7.2747, 9.7251, 8.6069, 9.2351, 9.7715, 10.329, 10.525 ],
+[  3.466,      0, 2.9943, 2.7333,      0,  6.451,      0, 4.1544, 2.4448, 11.497,      0, 7.6874, 9.8269, 9.4029, 9.2351, 10.303, 6.3794, 6.0995 ],
+[ 6.2551, 7.2226,  7.453, 5.3416, 5.5306, 5.0632, 6.3456, 5.2785, 6.2584,      0, 6.3732,      0,      0, 3.3589,      0, 4.6328, 4.5011,      0 ],
+[  10.38, 9.9107, 12.352, 12.204, 11.023, 12.203, 10.934, 11.279, 11.051, 11.703, 10.799, 11.617, 12.288, 12.384, 11.668, 13.012, 9.8161, 11.901 ],
+[ 11.876, 12.846,  12.76, 12.206, 12.187, 12.521, 12.237,  11.88, 12.547, 9.4418, 12.427,  11.14, 11.291, 10.155, 9.9436, 11.513, 12.426, 11.401 ],
+[      0,      0,      0, 3.6205,  3.466,      0, 3.1751,      0,      0, 5.5637,      0,      0,      0,      0, 4.1094, 3.1597,      0,      0 ],
+[ 4.7074, 5.4904,  7.203, 6.7595, 9.0461, 7.7984, 4.8636, 4.7121, 3.3058, 10.488, 2.4088, 7.7744, 8.6549, 8.7688, 8.4537, 9.4663, 7.9528, 3.8593 ],
+[ 4.7074, 3.5836, 5.0161, 4.1658, 7.2456, 2.6793, 5.8386, 6.6094, 7.2905, 3.3589, 3.2661, 3.7887,      0,      0, 3.1906, 4.0766, 4.7535, 4.8087 ],
+[      0,      0, 2.9943,      0,  2.591,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 7.3822, 6.0647, 9.3955, 7.9304,  7.425, 7.3972, 6.1142, 6.9407, 8.7846, 6.2302, 6.6458,  9.613, 9.1498, 8.6069, 8.5507, 9.4824, 6.7128, 5.3764 ],
+[ 6.9845, 7.5532, 7.9154, 6.7595, 6.5921, 6.6963, 6.6639, 7.6328, 7.5858, 3.3589, 6.2148, 5.7082, 3.4994, 5.2493,  5.067, 5.0332,  7.581, 3.8593 ],
+[  8.311, 8.6316, 8.6119, 7.9304, 5.9379, 7.7266, 8.2772,  8.415, 8.0156, 5.5637, 6.6458,  6.284, 4.9967, 5.5637, 6.6229, 7.1685, 6.5885, 6.7696 ],
+[ 7.0406, 6.0647, 4.2033, 5.6962,  2.591, 2.6793, 5.3632, 6.2598,  7.249,      0, 4.4952,      0,      0,      0,      0,      0, 5.1551,      0 ],
+[ 8.4208, 8.1635, 5.6375, 8.2309,      0, 7.4427, 6.4815, 6.0923, 8.5987,      0,  6.516,   7.15, 3.4994, 4.2868, 4.1094, 4.6328, 7.9014,      0 ],
+[ 5.3646, 4.5222, 8.4774, 8.4093, 9.0324, 6.9695, 6.0281, 8.2851, 7.4084, 4.2868, 6.7066,   7.15, 7.6211, 4.2868, 5.8558, 6.1785, 7.8751, 5.7828 ],
+[      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0, 3.2717,      0 ],
+[  3.466, 4.1279, 5.1636, 2.7333, 4.3992,      0, 4.0929,   4.46,  4.231, 3.3589, 4.9622,      0, 3.4994,      0, 3.1906, 3.1597, 4.7535,      0 ],
+[      0,      0,      0,      0,      0,      0,      0,      0, 2.4448,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[  2.591,      0, 2.1649,      0,      0,      0, 2.3266,      0, 2.4448,      0,      0,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[ 9.6071, 11.025, 11.101, 10.227, 10.756, 10.336, 10.603, 10.741,  11.02, 7.6106, 9.2292, 9.0754, 8.6913, 9.2576, 8.5191, 10.228, 10.437, 8.5675 ],
+[ 7.7951, 8.8534,  8.687, 8.0582, 7.5464, 8.1674, 8.5488, 8.3422, 8.7403, 5.5637, 8.5041, 5.7082, 6.1931, 5.2493, 5.6375, 7.3195, 8.3473, 4.8087 ],
+[  2.591, 4.1279, 2.9943, 2.7333,  3.466,  3.562, 4.3978,  2.379, 5.3576,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[  3.466, 5.0861, 4.2033, 4.1658, 4.3992,  3.562, 3.7058, 4.7121, 5.7638,      0, 4.9622, 3.7887, 4.4342,      0, 3.1906, 4.0766,      0, 4.8087 ],
+[ 4.3992, 3.5836, 5.1636, 5.5298,  3.466, 5.0632, 3.7058, 6.0006, 6.4901, 4.2868, 5.5973, 3.7887, 3.4994, 6.0403, 4.6662, 6.1785, 4.5011, 4.8087 ],
+[ 4.0068,      0, 2.9943, 3.6205, 4.0068,  3.562,      0,      0,      0,      0, 3.2661,      0,      0,      0,      0,      0,      0,      0 ],
+[ 5.6795, 6.4743, 6.6229, 6.1043, 6.5149, 6.0414, 6.3456, 7.6631,  4.231, 5.5637, 5.3144, 6.0246, 5.7155, 6.5483, 5.6375, 6.5885, 6.7712,      0 ],
+[      0, 2.6992,      0,      0,      0,      0,      0,  2.379,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 7.5464,  8.671, 5.4199, 6.5141,  2.591, 5.4674, 6.6639, 6.8385,  5.005,      0, 8.4694,      0,      0,      0,      0,      0,      0, 3.8593 ],
+[      0, 5.0861, 3.9008, 4.5606,      0,  3.562, 3.7058,      0,      0, 3.3589, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[ 9.8146, 11.095, 10.873, 10.307,  10.51, 10.739, 10.356, 9.8407,  10.73, 7.6774,  10.38, 9.6364, 9.2263, 8.4629, 8.1981, 9.2197, 10.512, 9.1165 ],
+[  2.591,      0,      0,      0,      0,      0,      0,      0, 3.3058,      0,      0,      0,      0, 3.3589,      0,      0,      0,      0 ],
+[ 4.9612, 6.5608, 5.9936, 3.6205, 5.8145, 4.8087, 6.4151, 7.0817, 5.8772, 8.9418, 4.1891, 4.7356, 6.3833, 7.3895, 7.8369, 8.0813, 4.5011, 7.5713 ],
+[ 8.7419, 10.492, 8.5327, 7.7901, 9.4081, 8.5045, 8.0337, 8.5825, 8.8693,  7.467, 7.5081, 6.0246, 8.9834,  7.861, 7.6742, 7.8527,  9.429, 8.7597 ],
+[ 9.3201, 9.9024, 10.881, 9.5662,  8.902, 9.2696, 8.8418, 10.687, 11.674,  8.123, 9.1547, 10.125, 10.356, 11.094,  9.383, 11.727, 9.9357, 10.947 ],
+[  2.591,      0, 5.0161,      0,  2.591,      0, 2.3266,      0, 3.8413,      0, 4.1891, 3.7887,      0,      0,      0,      0, 4.9682,      0 ],
+[  3.466, 2.6992, 3.9008,      0, 6.5921, 6.2607, 2.3266, 4.7121,      0, 3.3589, 7.2051, 3.7887, 4.9967, 3.3589,      0,      0, 2.4139,  8.618 ],
+[ 4.0068, 3.5836, 7.0215, 3.6205, 5.6795, 6.6191, 4.6494, 6.0006,  5.192,      0,  7.842,      0,      0,      0,      0,      0, 7.2113,      0 ],
+[ 5.5306, 5.0861, 4.6662, 5.1251, 4.7074, 4.4996, 5.3632, 4.9266,  5.506, 4.2868, 4.1891,      0,      0,      0, 3.1906, 5.0332, 4.5011,      0 ],
+[ 7.3822,  9.355,  8.687, 7.6347, 7.7621, 8.3216, 5.6204, 8.0763, 7.0211,      0, 7.8147, 4.7356, 4.4342, 5.2493, 5.3803, 5.3463,  6.043,      0 ],
+[ 7.2926, 5.8059, 8.0352, 7.9304,  8.288, 8.1942, 8.4855, 7.1257, 6.6896, 10.246,  6.516, 8.5422, 9.1498, 7.6774, 9.5171, 8.8246, 9.1278, 10.357 ],
+[ 5.3646, 6.9929, 2.1649, 5.5298,      0,  3.562, 3.7058, 5.1133,      0,      0, 2.4088,      0,      0,      0,      0,      0,      0,      0 ],
+[      0,      0, 2.1649,      0,      0,      0,      0,      0,      0, 12.194,      0, 7.7744, 10.411,      0, 11.314, 3.1597,      0,      0 ],
+[ 9.1646, 10.139, 10.573, 9.9091, 9.1262, 10.036, 10.136, 10.588, 9.3733, 9.4983, 9.0294, 9.0407, 9.2751, 9.3424, 8.9803, 10.513, 9.3451, 10.133 ],
+[ 5.6795, 4.8315, 6.2128, 5.1251,  5.177, 4.1057, 6.1142,   4.46, 6.6896, 4.2868, 5.5973, 3.7887,      0,      0, 4.1094, 5.3463,  6.221, 4.8087 ],
+[  2.591,      0,      0,      0,      0,      0, 2.3266,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.7074, 4.1279, 5.6375, 4.8703,  2.591, 2.6793, 3.1751, 4.9266, 4.5374,      0, 6.3732,      0,      0,      0,      0,      0,      0,      0 ],
+[ 6.0515, 6.5608, 7.0597, 7.0328, 4.7074, 6.5375, 5.2151, 5.4268, 5.9824, 4.2868, 4.1891, 6.6944, 4.4342, 5.5637, 4.1094, 6.3285,  6.043, 4.8087 ],
+[ 5.3646, 3.5836, 6.0704, 5.1251,      0, 8.9764, 5.3632, 5.9026, 5.3576, 8.0238, 4.4952,  6.284, 8.4145, 7.9173, 6.7373, 8.7991, 2.4139, 3.8593 ],
+[ 4.0068, 5.6568, 6.2128, 4.8703, 4.0068, 5.2794, 5.6204,   4.46, 6.3399, 3.3589, 5.3144, 6.6944, 4.9967, 4.8469, 3.1906, 6.9075, 5.1551, 5.7828 ],
+[      0,      0, 2.9943,      0,  2.591, 4.1057, 4.0929, 3.2332, 3.8413,      0, 2.4088,      0,      0, 3.3589,      0,      0, 2.4139,      0 ],
+[      0, 2.6992,      0,      0,      0,      0, 2.3266,  2.379,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 7.6937, 7.5532, 8.1809, 8.5681, 8.7419, 9.2696, 7.9658, 9.9117,  8.423, 11.341, 6.9271,  9.383, 11.101, 9.9538, 10.036, 10.908, 8.9995, 9.0071 ],
+[      0, 4.1279, 5.8265,      0,      0,      0,      0,  2.379, 4.5374,      0,      0, 3.7887,      0,      0, 3.1906,      0, 2.4139,      0 ],
+[      0, 4.5222, 3.9008, 3.6205, 4.7074, 2.6793, 2.3266,      0, 2.4448,      0, 2.4088,      0,      0,      0,      0, 3.1597,      0,      0 ],
+[ 5.6795,      0, 3.5176, 4.8703,  2.591, 4.8087, 3.7058,  2.379,      0, 3.3589,      0, 3.7887, 7.2821,      0, 4.1094, 3.1597,      0, 3.8593 ],
+[  2.591,      0, 2.9943,      0,      0,      0, 2.3266,  2.379,      0,      0,      0,      0,      0,      0,      0,      0,      0,      0 ],
+[ 4.0068, 2.6992, 5.2975, 2.7333,      0,      0, 3.7058,  2.379, 2.4448,      0, 2.4088,      0,      0, 3.3589,      0, 3.1597,      0,      0 ],
+[      0, 3.5836, 3.5176, 2.7333,  2.591,      0, 3.7058,  2.379,      0,      0, 4.1891,      0,      0,      0, 3.1906,      0, 3.2717,      0 ],
+[      0,      0, 4.4532,      0,      0, 2.6793, 3.1751, 3.2332,  4.231,      0,      0,      0,      0,      0,      0,      0,      0,      0 ] 
+] 
+}

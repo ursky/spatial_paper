@@ -271,7 +271,7 @@ draw_ratio_vs_time(ax6, time, humi_1, humi_2, "Humidity", alpha)
 
 #plt.tight_layout()
 plt.savefig("figure.png", dpi=300)
-#plt.show()
+plt.show()
 
 
 

@@ -136,7 +136,7 @@ if toi!=None:
 				ct+=1
 		if ct>=target_ct:
 			passed_ct+=1
-	print passed_ct*100.0/10000
+	print passed_ct*1.0/10000
 
 	
 
