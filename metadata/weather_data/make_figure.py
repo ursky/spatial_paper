@@ -82,6 +82,8 @@ def pair_data(set1, set2, position):
 	out2=[]
 	time_out=[]
 	for i,day in enumerate(sorted(set1)):
+		if i==0:
+			print day
 		if day not in set2:
 			continue
 		#if i<3 or i>len(set1)-2:
