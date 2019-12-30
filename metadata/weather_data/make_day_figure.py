@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 from scipy import stats
 from matplotlib.patches import Patch
+import pyqt_fit.nonparam_regression as smooth
+from pyqt_fit import npr_methods
 
 
 def convert_time(time):
@@ -83,53 +85,54 @@ def get_average_day(data):
 	return sorted(hours), [x for _,x in sorted(zip(hours,temps))], [x for _,x in sorted(zip(hours,humis))]
 
 
-def plot_temp(data, color, ax):
-	hours, temps, humis = get_average_day(data)
-	ax.scatter(hours, temps, alpha=0.01, c=color)
+def plot_data (xs, ys, color, ax):
+	ax.scatter(xs, ys, alpha=0.01, c=color)
 	if color=="gold": color="orange"
-	y_av = movingaverage(temps, 100)
-	ax.plot(hours[100:-100], y_av[100:-100],color)
+	if color=="viotet": color="magenta"
+	
+	# line of best fit
+	grid = np.r_[0:24:512j]
+	k0 = smooth.NonParamRegression(xs, ys, method=npr_methods.SpatialAverage())
+	k0.fit()
+	ax.plot(grid, k0(grid), color, linewidth=2)
 	ax.set_xticks([0,4,8,12,16,20,24])
 	ax.set_xlim(0,24)
+
+def fit(xs, ys):
+	est = smooth.NonParamRegression(xs, ys, method=npr_methods.LocalPolynomialKernel(q=2))
+	est.fit()
+	return est
+
+def plot_temp(data, color, ax):
+	hours, temps, humis = get_average_day(data)
+	plot_data(hours, temps, color, ax)
+	
 
 def plot_humi(data, color, ax):
 	hours, temps, humis = get_average_day(data)
-	ax.scatter(hours, humis, alpha=0.01, c=color)
-	if color=="gold": color="orange"
-	y_av = movingaverage(humis, 100)
-	ax.plot(hours[100:-100], y_av[100:-100],color)
-	ax.set_xticks([0,4,8,12,16,20,24])
-	ax.set_xlim(0,24)
+	plot_data(hours, humis, color, ax)
 	ax.set_ylim(19,100)
 
 
-def movingaverage(interval, window_size):
-    window= np.ones(int(window_size))/float(window_size)
-    return np.convolve(interval, window, 'same')
 
-
-
-top = load_data("SG1_In-Top.csv")
-mid = load_data("SG1_In-Mid.csv")
-bot = load_data("SG1_In-Bot.csv")
-out = load_data("SG1_Top.csv")
+data = {}
+data["top"] = load_data("SG1_In-Top.csv")
+data["mid"] = load_data("SG1_In-Mid.csv")
+data["bot"] = load_data("SG1_In-Bot.csv")
+data["out"] = load_data("SG1_Top.csv")
 
 # plotting set-up
 font = {'family': 'arial', 'weight': 'normal', 'size': 12}
 plt.rc('font', **font)
 plt.rc('font', family='arial')
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(6,6))
-colors=["gold", "red", "magenta", "cyan"]
+colors=["gold", "red", "violet", "cyan"]
 
-plot_temp(out, colors[0], ax1)
-plot_temp(top, colors[1], ax1)
-plot_temp(mid, colors[2], ax1)
-plot_temp(bot, colors[3], ax1)
-
-plot_humi(out, colors[0], ax2)
-plot_humi(top, colors[1], ax2)
-plot_humi(mid, colors[2], ax2)
-plot_humi(bot, colors[3], ax2)
+for i,position in enumerate(["out", "top", "mid", "bot"]):
+	print "plotting", position, "temperature..."
+	plot_temp(data[position], colors[i], ax1)
+	print "plotting", position, "humidity..."
+	plot_humi(data[position], colors[i], ax2)
 
 
 ax1.set_xlabel("Time after midnight (h)")

@@ -20,13 +20,13 @@ def plot_scatter(data, pc1, pc2, category, ax):
 	metadata_headers = {}
 	for i,meta in enumerate(headers):
 		metadata_headers[meta] = i
-	color_lib = ["cyan", "magenta", "gold", "red", "green", "blue", "pink"]
+	color_lib = ["red", "magenta", "cyan", "gold", "green", "blue", "pink"]
 	shape_lib = ["o", "s", "v", "X", "P"]
 	colors = {}
 	shapes = {}
 	n_colors = 0
 	n_shapes = 0
-	for i,sample in enumerate(samples):
+	for i,sample in sorted(enumerate(samples), reverse=True):
 		meta = metadata[i]
 		site=meta[metadata_headers[category]]
 		x = coordinates[i][pc1]
@@ -44,8 +44,17 @@ def plot_scatter(data, pc1, pc2, category, ax):
 			ax.scatter(x, y, c=colors[site], marker=shapes[site], s=50, edgecolors="k")
 	ax.set_xlabel("PC%d (%d%% explained)" % (pc1+1, int(explained[pc1])))
 	ax.set_ylabel("PC%d (%d%% explained)" % (pc2+1, int(explained[pc2])))
+	
+	# legend
+	handles, labels = ax.get_legend_handles_labels()
+	if category=="Position":
+		labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0], reverse=True))
+	else:
+		labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0], reverse=False))
 	if category!="Slice":
-		ax.legend()
+		ax.legend(handles, labels, frameon=True)
+
+
 	ax.grid(ls="--", c="k", alpha=0.2)
 		
 

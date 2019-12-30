@@ -180,7 +180,7 @@ for index in df.index.values:
 
 print "plotting..."
 sns.set(font_scale=1)
-g = sns.clustermap(df, figsize=(8,8), col_colors=col_colors, col_cluster=False, yticklabels=False, cmap="magma")
+g = sns.clustermap(df, figsize=(8,8), col_colors=col_colors, col_cluster=False, yticklabels=False, xticklabels=False, cmap="magma_r")
 
 # adjust axis labels
 plt.setp(g.ax_heatmap.get_xticklabels(), rotation=90)
@@ -189,5 +189,5 @@ plt.setp(g.ax_heatmap.yaxis.get_majorticklabels(), rotation=0)
 
 
 plt.savefig("figure.png", bbox_inches='tight', dpi=300)
-
+plt.show()
 

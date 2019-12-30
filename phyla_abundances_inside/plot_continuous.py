@@ -5,6 +5,8 @@ from scipy import stats
 import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
+import pyqt_fit.nonparam_regression as smooth
+from pyqt_fit import npr_methods
 
 
 def load_distances(filename):
@@ -106,7 +108,7 @@ def standardize_to_average( table, distances, only_center=False ):
 			continue
 		
 		
-		data[taxon]=([], [])
+		data[taxon]=([], [], [])
 		for position in positions:
 			for halite in halites:
 				for sli in slices:
@@ -137,6 +139,7 @@ def standardize_to_average( table, distances, only_center=False ):
 					data[taxon][1].append(new_abund)
 					distance = distances["_".join(sample.split("_")[:-1])]
 					data[taxon][0].append(distance)
+					data[taxon][2].append(position)
 	return data
 
 
@@ -244,45 +247,6 @@ def get_max_min_in_dict(dictionary):
         return max(maxs), min(mins)
 
 
-def draw_signifficance_bars(df, labels, ax):
-	max_val,min_val = get_max_min_in_dict(df)
-	inc = (max_val-min_val)*0.05
-
-	taxon=""
-	for x_st,s1 in enumerate(labels):
-		for x_fi,s2 in enumerate(labels):
-			if s1>=s2: continue
-			taxon1=s1.split("_")[0]
-			taxon2=s2.split("_")[0]
-			if taxon1!=taxon2: continue
-
-			if taxon!=taxon1:
-				taxon=taxon1
-				h=(max(df[s1]+df[s2]))*1.05
-
-			test=stats.ttest_ind(df[s1], df[s2])
-			if test.pvalue > 0.05: continue
-			elif test.pvalue > 0.01: m='*'
-			elif test.pvalue > 0.001: m='**'
-			else: m='***'
-			ax.hlines(y=h, xmin=x_st, xmax=x_fi, linewidth=1, color='k')
-			ax.text(float(x_fi+x_st)/2, h+0, m, ha='center', fontsize=12)
-			h+=inc
-
-
-def best_fit(X, Y):
-    xbar = sum(X)/len(X)
-    ybar = sum(Y)/len(Y)
-    n = len(X) # or len(Y)
-
-    numer = sum([xi*yi for xi,yi in zip(X, Y)]) - n * xbar * ybar
-    denum = sum([xi**2 for xi in X]) - n * xbar**2
-
-    b = numer / denum
-    a = ybar - b * xbar
-
-    return a, b
-
 
 def make_plot(data):
 	fig, axs = plt.subplots(2,3, figsize=(8,6), sharey=True)
@@ -291,10 +255,21 @@ def make_plot(data):
 			ax = axs[0][i]
 		else:
 			ax = axs[1][i-3]
-		ax.plot(data[taxon][0], data[taxon][1], "o", alpha=0.6)
-		a, b = best_fit(data[taxon][0], data[taxon][1])
-		yfit = [a + b * xi for xi in data[taxon][0]]
-		ax.plot(data[taxon][0], yfit)
+		xs = data[taxon][0]
+		ys = data[taxon][1]
+		positions = data[taxon][2]
+		colors = []
+		for position in positions:
+			if position=="T": colors.append("red")
+			if position=="M": colors.append("magenta")
+			if position=="B": colors.append("cyan")
+		ax.scatter(xs, ys, alpha=0.6, c=colors, edgecolor='k')
+	
+		# line of best fit
+		grid = np.r_[0.5:5:512j]
+		k0 = smooth.NonParamRegression(xs, ys, method=npr_methods.SpatialAverage())
+		k0.fit()
+		ax.plot(grid, k0(grid), "k", linewidth=2)
 
 		test = stats.pearsonr(data[taxon][0], data[taxon][1])
 		print taxon, test
@@ -330,7 +305,6 @@ taxa_table = collapse_taxa ( std_asv_table, taxonomy, level=2 )
 # taxa_table = standardize_to_cell_counts(taxa_table, cell_counts)
 
 std_data = standardize_to_average(taxa_table, distances, only_center=False)
-
 make_plot(std_data)
 
 

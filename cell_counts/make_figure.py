@@ -5,7 +5,7 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 
-positions={"T":"top", "M":"mid", "B":"bot"}
+positions={"T":"Top", "M":"Mid", "B":"Bot"}
 data={}
 data_df={}
 data_df["halite"]={}
@@ -90,10 +90,15 @@ sns.set(style="whitegrid")
 
 
 ax = sns.boxplot(x=category, y="count", data=df, color="w")
-ax = sns.swarmplot(x=category, y="count", data=df, hue="position", palette=sns.xkcd_palette(["cyan","magenta","gold"]))
+ax = sns.swarmplot(x=category, y="count", data=df, hue="position", edgecolor="k", linewidth=0.5, palette=dict(Top = "red", Mid = 'magenta', Bot = 'cyan'))
 
 ax.set_ylabel("Million cells per gramm of halite")
 ax.set_xlabel("Slice")
+
+# legend formatting
+handles, labels = ax.get_legend_handles_labels()
+labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0], reverse=True))
+ax.legend(handles, labels)
 
 
 plt.tight_layout()

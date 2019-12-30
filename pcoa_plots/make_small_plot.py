@@ -20,7 +20,7 @@ def plot_scatter(data, pc1, pc2, category, ax):
 	metadata_headers = {}
 	for i,meta in enumerate(headers):
 		metadata_headers[meta] = i
-	color_lib = ["cyan", "magenta", "gold", "red", "green", "blue", "pink"]
+	color_lib = ["cyan", "magenta", "red"]
 	colors = {}
 	for i,sample in enumerate(samples):
 		meta = metadata[i]
@@ -30,12 +30,16 @@ def plot_scatter(data, pc1, pc2, category, ax):
 
 		if site not in colors:
 			colors[site]=color_lib[len(colors)]
-			ax.scatter(x, y, c=colors[site], edgecolors="k", s=50, label=site)
+			ax.scatter(x, y, c=colors[site], edgecolors="k", s=50, label=site, alpha=0.9)
 		else:
-			ax.scatter(x, y, c=colors[site], s=50, edgecolors="k")
+			ax.scatter(x, y, c=colors[site], s=50, edgecolors="k", alpha=0.9)
 	ax.set_xlabel("PC%d (%d%% explained)" % (pc1+1, int(explained[pc1])))
 	ax.set_ylabel("PC%d (%d%% explained)" % (pc2+1, int(explained[pc2])))
-	ax.legend()
+	
+	# legend ordering
+        handles, labels = ax.get_legend_handles_labels()
+        labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0], reverse=True))
+        ax.legend(handles, labels, frameon=True)
 	ax.grid(ls="--", c="k", alpha=0.2)
 		
 def plot_continuous(data, pc1, pc2, category, ax):

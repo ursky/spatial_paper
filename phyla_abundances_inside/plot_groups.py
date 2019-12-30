@@ -272,8 +272,13 @@ def make_boxplot(df, dic):
 	sns.set(style="whitegrid")
 
 	ax = sns.boxplot(x="taxon_position", y="value", data=df, color="w")
-	ax = sns.swarmplot(x="taxon_position", y="value", data=df, hue="position")
+	ax = sns.swarmplot(x="taxon_position", y="value", data=df, hue="position", edgecolor="k", linewidth=0.5, palette=dict(Top = "red", Mid = 'magenta', Bot = 'cyan'))
 	#ax.set_yscale("log")
+
+	# legend formatting
+	handles, labels = ax.get_legend_handles_labels()
+	labels, handles = zip(*sorted(zip(labels, handles), key=lambda t: t[0], reverse=True))
+	ax.legend(handles, labels)
 
 	labels = [item.get_text() for item in ax.get_xticklabels()]
 	draw_signifficance_bars(dic, labels, ax)
@@ -292,7 +297,7 @@ def make_boxplot(df, dic):
 	ax.set_ylabel("Relative abundance standardized to slice average")
 	
 	plt.tight_layout()
-	plt.savefig("figure_gouped.png")
+	plt.savefig("figure_grouped.png")
 	#plt.show()
 
 

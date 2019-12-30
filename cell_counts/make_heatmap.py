@@ -5,12 +5,12 @@ import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 
-positions={"T":"top", "M":"mid", "B":"bot"}
+positions={"T":"Top", "M":"Middle", "B":"Bottom"}
 data={}
 data_df={}
-data_df["top"]={}
-data_df["mid"]={}
-data_df["bot"]={}
+data_df["Top"]={}
+data_df["Middle"]={}
+data_df["Bottom"]={}
 
 
 def count_to_density(count):
@@ -56,13 +56,14 @@ for position in data_df:
 
 
 df = pd.DataFrame.from_dict(data_df)
-print df
+print df.T
+df.T.to_csv("cell_count_table.tab", sep="\t")
 
 df = df.div(df.max(axis=1), axis=0)
-sns.clustermap(df, figsize=(5,8), cmap="magma")
+sns.clustermap(df.T, figsize=(6,5), cmap="magma_r", row_cluster=False)
 
-plt.tight_layout()
-plt.savefig("heatmap.png")
+
+plt.savefig("heatmap.png", dpi=300, bbox_inches='tight')
 #plt.show()
 
 
