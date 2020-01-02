@@ -19,7 +19,7 @@ def load_data(dirname):
 				cut = line.strip().split()
 				if cut[1]=="NaN":
 					continue
-				if float(cut[0])<500 or float(cut[0])>900:
+				if float(cut[0])<400 or float(cut[0])>900:
 					continue
 				data[filename][0].append(float(cut[0]))
 				data[filename][1].append(float(cut[1]))
@@ -32,7 +32,7 @@ def load_solar_data(filename):
 		if line.startswith("Wvl"):
 			continue
 		cut = line.strip().split()
-		if float(cut[0])<500 or float(cut[0])>900:
+		if float(cut[0])<400 or float(cut[0])>900:
 			continue
 		x.append(float(cut[0]))
 		y.append(float(cut[2]))
