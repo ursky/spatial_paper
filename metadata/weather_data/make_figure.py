@@ -266,7 +266,7 @@ def set_violin_labels(labels, ax):
 	ax.set_xticklabels(labels)
 	ax.set_xlim(0.25, len(labels) + 0.75)
 set_violin_labels(["SG1", "SG2"], ax3)
-set_violin_labels(["Top", "Bottom"], ax6)
+set_violin_labels(["SG1-Top", "SG1-Bottom"], ax6)
 
 ax1.annotate("A.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)
 ax2.annotate("B.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)

@@ -92,7 +92,7 @@ def plot_data (xs, ys, color, ax):
 	
 	# line of best fit
 	grid = np.r_[0:24:512j]
-	k0 = smooth.NonParamRegression(xs, ys, method=npr_methods.SpatialAverage())
+	k0 = smooth.NonParamRegression(xs, ys, method=npr_methods.LocalPolynomialKernel(q=6))
 	k0.fit()
 	ax.plot(grid, k0(grid), color, linewidth=2)
 	ax.set_xticks([0,4,8,12,16,20,24])

@@ -1,0 +1,132 @@
+#!/usr/bin/env python2
+import sys
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+from collections import OrderedDict
+from scipy import stats
+import numpy as np
+
+
+def load_data(filename):
+	data = {}
+	headers = {}
+	toi = set(["D_0__Archaea;D_1__Euryarchaeota", \
+		"D_0__Archaea;D_1__Nanohaloarchaeota", \
+		"D_0__Bacteria;D_1__Actinobacteria", \
+		"D_0__Bacteria;D_1__Bacteroidetes", \
+		"D_0__Bacteria;D_1__Cyanobacteria", \
+		"D_0__Bacteria;D_1__Proteobacteria", \
+		"D_0__Eukarya;D_1__Chlorophyta"])
+	for i,line in enumerate(open(filename)):
+		cut=line.strip().split(",")
+		if i==0:
+			head = cut[:]
+			for j,col in enumerate(head):
+				headers[col]=j
+		else:
+			sample = cut[0]
+			location = cut[headers["Location"]]
+			# calculate total sum
+			total = 0
+			for i,val in enumerate(cut):
+				taxon = head[i]
+				if "D_1__" in taxon:
+					total+=float(val)
+			for i,val in enumerate(cut):
+				taxon = head[i]
+				if "Chloroplast" in taxon:
+					taxon = "D_0__Eukarya;D_1__Chlorophyta"
+				taxon = ";".join(taxon.split(";")[:2])
+				
+				if taxon not in toi:
+					if taxon.startswith("D_0"):
+						taxon = "D_0__Other;D_1__Other"
+					else:
+						continue
+				abund = 100.0*float(val)/total
+				index = sample+"_"+taxon
+				if index not in data:
+					data[index] = {}
+					data[index]["taxon"]=taxon.split("_")[-1]
+					data[index]["location"]=location
+					data[index]["sample"]=sample
+					data[index]["abundance"]=abund
+				else:
+					data[index]["abundance"]+=abund
+	for k in data:
+		if data[k]["abundance"]==0:
+			data[k]["abundance"]=0.1
+		if data[k]["location"]=="Top":
+			data[k]["location"]="SG1-Top"
+		if data[k]["location"]=="Bottom":
+			data[k]["location"]="SG1-Bottom"
+	df = pd.DataFrame.from_dict(data).T
+	return data, df
+
+
+def reformat_data(data):
+	samples=[]
+	for k in data:
+		taxon = data[k]["taxon"]
+		abund = data[k]["abundance"]
+		sample = data[k]["sample"]
+		location = data[k]["location"]
+		name = location+"|"+sample
+		if name not in samples:
+			samples.append(name)
+	samples.sort()
+	N=len(samples)
+	sample_locs = {}
+	for i, sample in enumerate(samples):
+		sample_locs[sample]=i
+
+	new_data={}
+
+	for k in data:
+		taxon = data[k]["taxon"]
+		abund = data[k]["abundance"]
+		sample = data[k]["sample"]
+		location = data[k]["location"]
+		name = location+"|"+sample
+		if taxon not in new_data:
+			new_data[taxon] = [''] * N
+		loc = sample_locs[name]
+		new_data[taxon][loc] = abund
+	return new_data, samples
+
+
+def draw_plot(data, samples, ax):
+	taxa = data.keys()
+	print taxa
+	N = len(samples)
+	ind = np.arange(N)
+	width = 0.9
+
+
+	# main plotting
+	p1 = ax.bar(ind, data["Other"], width)
+	p2 = ax.bar(ind, data["Cyanobacteria"], width, bottom=data["Other"])
+
+
+	ax.set_ylabel('Relative abundance (%)')
+	ax.set_title('Taxonomy barplot')
+	ax.set_xticks(ind, samples)
+	ax.set_yticks(np.arange(0, 101, 10))
+	#plt.legend((p1[0], p2[0]), ('Men', 'Women'))
+
+
+########################################################
+
+fig, axs = plt.subplots(2,1, figsize=(8,8))
+sns.set(style="whitegrid")
+
+
+data, df = load_data("large-3.csv")
+data, samples = reformat_data(data)
+draw_plot(data, samples, axs[0])
+
+
+
+plt.tight_layout()
+plt.savefig("figure_full.png", dpi=300)

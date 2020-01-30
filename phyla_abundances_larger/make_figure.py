@@ -5,6 +5,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from collections import OrderedDict
 from scipy import stats
+import numpy as np
 
 
 def load_data(filename):
@@ -37,8 +38,12 @@ def load_data(filename):
 				if "Chloroplast" in taxon:
 					taxon = "D_0__Eukarya;D_1__Chlorophyta"
 				taxon = ";".join(taxon.split(";")[:2])
+				
 				if taxon not in toi:
-					continue
+					if taxon.startswith("D_0"):
+						taxon = "D_0__Other;D_1__Other"
+					else:
+						continue
 				abund = 100.0*float(val)/total
 				index = sample+"_"+taxon
 				if index not in data:
@@ -49,80 +54,125 @@ def load_data(filename):
 					data[index]["abundance"]=abund
 				else:
 					data[index]["abundance"]+=abund
+	for k in data:
+		if data[k]["abundance"]==0:
+			data[k]["abundance"]=0.1
+		if data[k]["location"]=="Top":
+			data[k]["location"]="SG1-Top"
+		if data[k]["location"]=="Bottom":
+			data[k]["location"]="SG1-Bottom"
 	df = pd.DataFrame.from_dict(data).T
 	return data, df
 
 
-def get_max_min_in_dict(dictionary):
-        maxs=[]; mins=[]
-        for key in dictionary:
-                maxs.append(max(dictionary[key]))
-                mins.append(min(dictionary[key]))
-        return max(maxs), min(mins)
+def reformat_data(data):
+	samples=[]
+	for k in data:
+		taxon = data[k]["taxon"]
+		abund = data[k]["abundance"]
+		sample = data[k]["sample"]
+		location = data[k]["location"]
+		name = location+"|"+sample
+		if name not in samples:
+			samples.append(name)
+	samples.sort()
+	N=len(samples)
+	sample_locs = {}
+	for i, sample in enumerate(samples):
+		sample_locs[sample]=i
+
+	new_data={}
+
+	for k in data:
+		taxon = data[k]["taxon"]
+		abund = data[k]["abundance"]
+		sample = data[k]["sample"]
+		location = data[k]["location"]
+		name = location+"|"+sample
+		if taxon not in new_data:
+			new_data[taxon] = [''] * N
+		loc = sample_locs[name]
+		new_data[taxon][loc] = abund
+	return new_data, samples
 
 
-def draw_signifficance_bars(data, labels, ax):
-	for x_st,taxon in enumerate(labels):
-		groups = {}
-		lists = []
-		hmax = 0
-		for sample in data:
-			if taxon not in data[sample]["taxon"]:
-				continue
-			location = data[sample]["location"]
-			abund = data[sample]["abundance"]
-			if abund>hmax:
-				hmax=abund
-			if location not in groups:
-				groups[location]=len(lists)
-				lists.append([])
-			lists[groups[location]].append(abund)
-
-		test=stats.ttest_ind(lists[0], lists[1])
-		if test.pvalue > 0.01: continue
-		elif test.pvalue > 0.001: m='*'
-		elif test.pvalue > 0.0001: m='**'
-		else: m='***'
-		ax.hlines(y=hmax+5, xmin=x_st-0.25, xmax=x_st+0.25, linewidth=1, color='k')
-		ax.text(x_st, hmax+5, m, ha='center', fontsize=12)
+def insert_gap(samples, abundances):
+	new_abunds = []
+	site=""
+	for i, abund in enumerate(abundances):
+		sample = samples[i]
+		new_site = sample.split("|")[0]
+		if new_site!=site:
+			if site=="":
+				site=new_site
+			else:
+				site=new_site
+				new_abunds.append(0)
+		
+		new_abunds.append(abund)
+	return new_abunds
 
 
-def draw_boxplot(filename, ax):
-	data, df = load_data(filename)
-	taxa = ["Euryarchaeota", "Bacteroidetes", "Cyanobacteria", "Chlorophyta", "Proteobacteria", "Actinobacteria", "Nanohaloarchaeota"]
-	df["abundance"] = df["abundance"].astype(float)
+def draw_plot(data, samples, ax):
+	N = len(samples) + 1
+	ind = np.arange(N)
+	width = 1
 
-	ax = sns.boxplot(x="taxon", y="abundance", data=df, color="w", hue="location", order=taxa, ax=ax)
-	ax = sns.swarmplot(x="taxon", y="abundance", data=df, hue="location", split=True, edgecolor="k", order=taxa, ax=ax, alpha=0.6, linewidth=0.5)
+	base = [0] * N
+	plots={}
 
-	ax.set_ylabel("Relative abundance (%)")
-	if "medium" in filename:
-		ax.set_xlabel("Phyla")
+	taxa = ['Nanohaloarchaeota', 'Actinobacteria', 'Cyanobacteria', 'Chlorophyta', 'Proteobacteria', 'Bacteroidetes', 'Euryarchaeota']	
+	for taxon in taxa:
+		abundances = data[taxon]
+		abundances = insert_gap(samples, abundances)
+		plots[taxon] = ax.bar(ind, abundances, width, bottom=base, linewidth=0.5)
+		for i, val in enumerate(abundances):
+			base[i]+=val
+
+	#ax.set_xlabel('Samples')
+	ax.set_ylabel('Relative abundance (%)')
+	#ax.set_xticks(ind, samples)
+	ax.set_xticks([]) 
+	ax.set_xticklabels([])
+	ax.set_yticks(np.arange(0, 101, 10))
+
+	# draw legend and labels
+	handles = []
+	taxa.reverse()
+	for taxon in taxa:
+		handles.append(plots[taxon][0])
+	for i,taxon in enumerate(taxa):
+		taxa[i] = "$\it{" + taxon + "}$"
+	ax.legend(handles, taxa)
+	ax.grid(axis="y", ls="--", c="k", alpha=0.1)
+	ax.spines['right'].set_visible(False)
+	ax.spines['top'].set_visible(False)
+	ax.spines['bottom'].set_visible(False)
+
+	if "SG1-Bottom" in samples[0]:
+		ax.text(2, -6, "SG1-Top", fontsize=14)
+		ax.text(11, -6, "SG1-Bottom", fontsize=14)
 	else:
-		ax.get_xaxis().set_visible(False)
-
-	handles, labels = ax.get_legend_handles_labels()
-	l = ax.legend(handles[2:], labels[2:], frameon=True)
+		ax.text(17, -6, "SG1", fontsize=14)
+		ax.text(52, -6, "SG2", fontsize=14)
 
 
-	ax.set_xticklabels(taxa, rotation=45)
-	ax.set_ylim(0,100)
-
-	for x in [1,2,3,4,5,6]:
-		ax.axvline(x=x-0.5, linewidth=1, color='k', alpha=0.2)
-
-	draw_signifficance_bars(data, taxa, ax)
-
-
+########################################################
 
 fig, axs = plt.subplots(2,1, figsize=(8,8))
 sns.set(style="whitegrid")
 
-draw_boxplot("large-3.csv", axs[0])
-draw_boxplot("medium-3.csv", axs[1])
+
+data, df = load_data("large-3.csv")
+data, samples = reformat_data(data)
+draw_plot(data, samples, axs[0])
+
+data, df = load_data("medium-3.csv")
+data, samples = reformat_data(data)
+draw_plot(data, samples, axs[1])
 
 axs[0].annotate("A.", xy=(-0.09, 0.95), xycoords="axes fraction", fontsize=20)
 axs[1].annotate("B.", xy=(-0.09, 0.95), xycoords="axes fraction", fontsize=20)
 
 plt.tight_layout()
-plt.savefig("figure.png", dpi=300)
+plt.savefig("figure_full.png", dpi=300)
