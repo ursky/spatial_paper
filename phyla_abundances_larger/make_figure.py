@@ -150,11 +150,11 @@ def draw_plot(data, samples, ax):
 	ax.spines['bottom'].set_visible(False)
 
 	if "SG1-Bottom" in samples[0]:
-		ax.text(2, -6, "SG1-Top", fontsize=14)
-		ax.text(11, -6, "SG1-Bottom", fontsize=14)
+		ax.text(1.2, -6, "North-Bottom", fontsize=14)
+		ax.text(11.5, -6, "North-Top", fontsize=14)
 	else:
-		ax.text(17, -6, "SG1", fontsize=14)
-		ax.text(52, -6, "SG2", fontsize=14)
+		ax.text(17, -6, "North", fontsize=14)
+		ax.text(52, -6, "South", fontsize=14)
 
 
 ########################################################

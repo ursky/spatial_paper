@@ -53,9 +53,13 @@ def load_data(filename):
 		if data[k]["abundance"]==0:
 			data[k]["abundance"]=0.1
 		if data[k]["location"]=="Top":
-			data[k]["location"]="SG1-Top"
+			data[k]["location"]="North-Top"
 		if data[k]["location"]=="Bottom":
-			data[k]["location"]="SG1-Bottom"
+			data[k]["location"]="North-Bottom"
+		if data[k]["location"]=="SG1":
+			data[k]["location"]="North"
+		if data[k]["location"]=="SG2":
+			data[k]["location"]="South"
 	df = pd.DataFrame.from_dict(data).T
 	return data, df
 

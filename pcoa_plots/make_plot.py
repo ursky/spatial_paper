@@ -25,8 +25,10 @@ def plot_scatter(data, ax):
 			site=meta[-2]
 		x = coordinates[i][0]
 		y = coordinates[i][1]
-		if site=="Top": site="SG1-Top"
-		if site=="Bottom": site="SG1-Bottom"
+		if site=="Top": site="North-Top"
+		if site=="Bottom": site="North-Bottom"
+		if site=="SG1": site="North"
+		if site=="SG2": site="South"
 		if colors=={}:
 			colors[site]="r"
 			ax.scatter(x, y, c=colors[site], edgecolors="k", label=site, s=50, alpha=0.5)
