@@ -1,0 +1,150 @@
+#!/usr/bin/env python
+import sys
+import matplotlib.pyplot as plt
+import seaborn as sns
+import pandas as pd
+import random
+from scipy import stats
+
+df_dic={"labels":[],"values":[]}
+
+
+# load large scale metrics
+large_site={}
+for line in open("metadata_large.txt"):
+	if line[0]=="#":
+		continue
+	cut=line.split("\t")
+	sample=cut[0].split("_")[0]
+	site=cut[4]
+	large_site[sample]=site
+
+for i,line in enumerate(open("dissimilarity_large.txt")):
+	cut=line.rstrip().split("\t")
+	if i==0:
+		head=cut
+		continue
+	for j,val in enumerate(cut):
+		if j==0:
+			sample1=val.split("_")[0]
+			continue
+		sample2=head[j].split("_")[0]
+		if sample1<=sample2:
+			continue
+		val=float(val)
+		site1=large_site[sample1]
+		site2=large_site[sample2]
+		if site1!=site2:
+			df_dic["labels"].append("~20 km")
+			df_dic["values"].append(val)
+		
+	
+# load medium scale metrics
+medium_site={}
+for line in open("metadata_medium.txt"):
+	if line[0]=="#":
+		continue
+	cut=line.split("\t")
+	sample=cut[0].split("_")[0]
+	site=cut[1]
+	medium_site[sample]=site
+
+for i,line in enumerate(open("dissimilarity_medium.txt")):
+	cut=line.rstrip().split("\t")
+	if i==0:
+		head=cut
+		continue
+	for j,val in enumerate(cut):
+		if j==0:
+			sample1=val.split("_")[0]
+			continue
+		sample2=head[j].split("_")[0]
+		if sample1<=sample2:
+			continue
+		val=float(val)
+		site1=medium_site[sample1]
+		site2=medium_site[sample2]
+		if site1!=site2:
+			df_dic["labels"].append("~300 m")
+			df_dic["values"].append(val)	
+
+
+# load small scale metrics
+small_site={}
+for line in open("metadata_small.txt"):
+	if line[0]=="#":
+		continue
+	cut=line.split("\t")
+	sample=cut[0].split("_")[0]
+	site=cut[1]
+	small_site[sample]=site
+
+for i,line in enumerate(open("dissimilarity_small.txt")):
+	cut=line.rstrip().split("\t")
+	if i==0:
+		head=cut
+		continue
+	for j,val in enumerate(cut):
+		if j==0:
+			sample1=val.split("_")[0]
+			continue
+		sample2=head[j].split("_")[0]
+		if sample1<=sample2:
+			continue
+		val=float(val)
+		site1=small_site[sample1]
+		site2=small_site[sample2]
+		slice1=sample1.split("-")[1]
+		slice2=sample2.split("-")[1]
+		pos1=sample1.split("-")[2]
+		pos2=sample2.split("-")[2]
+		if site1!=site2:
+			df_dic["labels"].append("~10 m")
+			df_dic["values"].append(val)
+		else:
+			df_dic["labels"].append("~10 cm")
+			df_dic["values"].append(val)
+			if pos1==pos2:
+				df_dic["labels"].append("Horizontal ~3 cm")
+				df_dic["values"].append(val)
+			if slice1==slice2:
+				df_dic["labels"].append("Vertical ~3 cm")
+				df_dic["values"].append(val)
+
+data={}
+labels=df_dic["labels"]
+values=df_dic["values"]
+
+for i,val in enumerate(values):
+	label=labels[i]
+	if label not in data:
+		data[label]=[]
+	data[label].append(val)
+df = pd.DataFrame.from_dict(df_dic)
+
+ax = sns.boxplot(x="labels", y="values", data=df, color="gray", order=["Vertical ~3 cm", "Horizontal ~3 cm", "~10 cm", "~10 m", "~300 m", "~20 km"])
+
+#add signifficance bars
+labels = [item.get_text() for item in ax.get_xticklabels()]
+print labels
+h=0.4
+for x_st,s1 in enumerate(labels):
+	for x_fi,s2 in enumerate(labels):
+		if s1>=s2: continue
+		if abs(x_st-x_fi)>1: continue
+		test=stats.ttest_ind(data[s1], data[s2])
+		if test.pvalue > 0.05: continue
+		elif test.pvalue > 0.01: m='*'
+		elif test.pvalue > 0.001: m='**'
+		else: m='***'
+		ax.hlines(y=h, xmin=x_st, xmax=x_fi, linewidth=1, color='k')
+		ax.text(float(x_fi+x_st)/2, h+0, m, ha='center', fontsize=12)
+		h+=0.2
+
+
+plt.ylabel("Weighted Unifrac Dissimilarity")
+plt.xlabel("Spatial Scale")
+plt.xticks(rotation=45)
+
+plt.tight_layout()
+plt.savefig("figure_weighted_unifrac.png", dpi=300)

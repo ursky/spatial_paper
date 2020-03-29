@@ -88,7 +88,7 @@ def get_average_day(data):
 def plot_data (xs, ys, color, ax):
 	ax.scatter(xs, ys, alpha=0.01, c=color)
 	if color=="gold": color="orange"
-	if color=="viotet": color="magenta"
+	if color=="green": color="limegreen"
 	
 	# line of best fit
 	grid = np.r_[0:24:512j]
@@ -126,7 +126,7 @@ font = {'family': 'arial', 'weight': 'normal', 'size': 12}
 plt.rc('font', **font)
 plt.rc('font', family='arial')
 fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(6,6))
-colors=["gold", "red", "violet", "cyan"]
+colors=["gold", "red", "green", "cyan"]
 
 for i,position in enumerate(["out", "top", "mid", "bot"]):
 	print "plotting", position, "temperature..."

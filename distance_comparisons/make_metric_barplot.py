@@ -26,9 +26,9 @@ for i,line in enumerate(open("dissimilarity_large.txt")):
 		continue
 	for j,val in enumerate(cut):
 		if j==0:
-			sample1=val
+			sample1=val.split("_")[0]
 			continue
-		sample2=head[j]
+		sample2=head[j].split("_")[0]
 		if sample1<=sample2:
 			continue
 		val=float(val)
@@ -56,9 +56,9 @@ for i,line in enumerate(open("dissimilarity_medium.txt")):
 		continue
 	for j,val in enumerate(cut):
 		if j==0:
-			sample1=val
+			sample1=val.split("_")[0]
 			continue
-		sample2=head[j]
+		sample2=head[j].split("_")[0]
 		if sample1<=sample2:
 			continue
 		val=float(val)
@@ -86,9 +86,9 @@ for i,line in enumerate(open("dissimilarity_small.txt")):
 		continue
 	for j,val in enumerate(cut):
 		if j==0:
-			sample1=val
+			sample1=val.split("_")[0]
 			continue
-		sample2=head[j]
+		sample2=head[j].split("_")[0]
 		if sample1<=sample2:
 			continue
 		val=float(val)
@@ -105,7 +105,10 @@ for i,line in enumerate(open("dissimilarity_small.txt")):
 			df_dic["labels"].append("~10 cm")
 			df_dic["values"].append(val)
 			if pos1==pos2:
-				df_dic["labels"].append("~3 cm")
+				df_dic["labels"].append("Horizontal ~3 cm")
+				df_dic["values"].append(val)
+			if slice1==slice2:
+				df_dic["labels"].append("Vertical ~3 cm")
 				df_dic["values"].append(val)
 
 data={}
@@ -119,12 +122,12 @@ for i,val in enumerate(values):
 	data[label].append(val)
 df = pd.DataFrame.from_dict(df_dic)
 
-ax = sns.boxplot(x="labels", y="values", data=df, color="gray", order=["~3 cm", "~10 cm", "~10 m", "~300 m", "~20 km"])
+ax = sns.boxplot(x="labels", y="values", data=df, color="gray", order=["Vertical ~3 cm", "Horizontal ~3 cm", "~10 cm", "~10 m", "~300 m", "~20 km"])
 
 #add signifficance bars
 labels = [item.get_text() for item in ax.get_xticklabels()]
 print labels
-h=0.4
+h=0.9
 for x_st,s1 in enumerate(labels):
 	for x_fi,s2 in enumerate(labels):
 		if s1>=s2: continue
@@ -136,7 +139,7 @@ for x_st,s1 in enumerate(labels):
 		else: m='***'
 		ax.hlines(y=h, xmin=x_st, xmax=x_fi, linewidth=1, color='k')
 		ax.text(float(x_fi+x_st)/2, h+0, m, ha='center', fontsize=12)
-		h+=0.1
+		h+=0.05
 
 
 plt.ylabel("Bray-Curtis Dissimilarity")

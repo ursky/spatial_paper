@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from collections import OrderedDict
 from scipy import stats
 import numpy as np
+import matplotlib.gridspec as gridspec
 
 
 def load_data(filename):
@@ -143,36 +144,44 @@ def draw_plot(data, samples, ax):
 		handles.append(plots[taxon][0])
 	for i,taxon in enumerate(taxa):
 		taxa[i] = "$\it{" + taxon + "}$"
-	ax.legend(handles, taxa)
+	if "SG1-Top|SG1-TOP-2016-02mt-9b" in samples:
+		ax.legend(handles, taxa, bbox_to_anchor=(1, 0.7))
 	ax.grid(axis="y", ls="--", c="k", alpha=0.1)
 	ax.spines['right'].set_visible(False)
 	ax.spines['top'].set_visible(False)
 	ax.spines['bottom'].set_visible(False)
 
 	if "SG1-Bottom" in samples[0]:
-		ax.text(1.2, -6, "North-Bottom", fontsize=14)
-		ax.text(11.5, -6, "North-Top", fontsize=14)
+		ax.text(0, -6, "North-Bottom", fontsize=14)
+		ax.text(11, -6, "North-Top", fontsize=14)
 	else:
 		ax.text(17, -6, "North", fontsize=14)
 		ax.text(52, -6, "South", fontsize=14)
 
 
 ########################################################
+fig = plt.figure(figsize=(8,8))
 
-fig, axs = plt.subplots(2,1, figsize=(8,8))
+gs1 = gridspec.GridSpec(2,10, figure=fig)
+#gs1.update(left=0.05, right=0.48, wspace=0.05)
+ax1 = plt.subplot(gs1[0, :])
+ax2 = plt.subplot(gs1[1, :6])
+#ax3 = plt.subplot(gs1[1, 1])
+
+
 sns.set(style="whitegrid")
 
 
 data, df = load_data("large-3.csv")
 data, samples = reformat_data(data)
-draw_plot(data, samples, axs[0])
+draw_plot(data, samples, ax1)
 
 data, df = load_data("medium-3.csv")
 data, samples = reformat_data(data)
-draw_plot(data, samples, axs[1])
+draw_plot(data, samples, ax2)
 
-axs[0].annotate("A.", xy=(-0.09, 0.95), xycoords="axes fraction", fontsize=20)
-axs[1].annotate("B.", xy=(-0.09, 0.95), xycoords="axes fraction", fontsize=20)
+ax1.annotate("A.", xy=(-0.09, 0.95), xycoords="axes fraction", fontsize=20)
+ax2.annotate("B.", xy=(-0.15, 0.95), xycoords="axes fraction", fontsize=20)
 
 plt.tight_layout()
 plt.savefig("figure_full.png", dpi=300)
