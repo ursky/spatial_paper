@@ -1,0 +1,8 @@
+#SampleID	Location	SeqLib	Sample	RevIndex
+MedCtrl-1-2_ASD	SG1-Top	Medium	1.2	1.2_Medium
+MedCtrl-1-2-O_ASD	SG1-Top	OMedium	1.2	1.2_OMedium
+MedCtrl-2-2_ASD	SG1-Top	Medium	2.2	2.2_Medium
+MedCtrl-2-2-O_ASD	SG1-Top	OMedium	2.2	2.2_OMedium
+MedCtrl-3-1_ASD	SG1-Top	Medium	3.1	3.1_Medium
+MedCtrl-3-1-O_ASD	SG1-Top	OMedium	3.1	3.1_OMedium
+MedCtrl-4-1_ASD	SG1-Top	Medium	4.1	4.1_Medium

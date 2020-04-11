@@ -65,9 +65,6 @@ def load_data(filename):
 			temp = (temp-32) * (5.0/9.0)
 		humi = float(cut[3])
 
-		if day.split("-")[0]!="18": continue
-		if day.split("-")[1]!="03" and day.split("-")[1]!="04": continue
-
 		if day not in data:
 			data[day]={}
 		if hour in data[day]:
@@ -136,7 +133,8 @@ def draw_data_vs_data(ax, data1, data2, title, alpha, time_points):
 		time.append(int(point.split("_")[1]))
 	sc = ax.scatter(data1, data2, alpha=alpha, s=10, c=time, cmap="hsv")
 	ax.grid(linestyle='--', alpha=0.5)
-	fig.colorbar(sc, ax=ax)
+	sc_sub = ax.scatter(data1, data2, alpha=1, s=0.001, c=time, cmap="hsv")
+	fig.colorbar(sc_sub, ax=ax)
 	add_diagonal(ax)
 
 
@@ -214,10 +212,6 @@ def plot_row(file1, file2, ax1, ax2, ax3):
 	print "loading and plotting", file1, file2
 	data1 = load_data(file1)
 	data2 = load_data(file2)
-	print sorted(data1.keys())[0], sorted(data1.keys())[-1]
-	print sorted(data2.keys())[0], sorted(data2.keys())[-1]
-	if file1=="SG1_Bot.csv": print sorted(data1.keys())
-	if file2=="SG1_Bot.csv": print sorted(data2.keys())
 	time, temp_1, temp_2 = pair_data(data1, data2, 0)
 	time, humi_1, humi_2 = pair_data(data1, data2, 1)
 	dates = pair_dates(data1, data2)
@@ -228,14 +222,14 @@ def plot_row(file1, file2, ax1, ax2, ax3):
 	print "Temperature comparison test results: "+str(temp_test)
 	print "Humidity comparison test results: "+str(humi_test)
 
-	alpha=0.5
+	alpha=0.1
 	draw_data_vs_data(ax1, temp_1, temp_2, "Temperature", alpha, time)
-	ax1.set_xticks(np.arange(10, 40, 5))
-	ax1.set_yticks(np.arange(10, 40, 5))
+	ax1.set_xticks(np.arange(5, 40, 5))
+	ax1.set_yticks(np.arange(5, 40, 5))
 
 	draw_data_vs_data(ax2, humi_1, humi_2, "Humidity", alpha, time)
-	ax2.set_xticks(np.arange(20, 100, 10))
-	ax2.set_yticks(np.arange(20, 100, 10))
+	ax2.set_xticks(np.arange(0, 110, 20))
+	ax2.set_yticks(np.arange(0, 110, 20))
 
 	draw_deliquescence_time(ax3, dates)
 
@@ -247,17 +241,17 @@ plt.rc('font', family='arial')
 fig, ((ax1, ax2, ax3), (ax4, ax5, ax6)) = plt.subplots(2, 3, figsize=(10,6))
 
 plot_row("SG1_Bot.csv", "SG2_Bot.csv", ax1, ax2, ax3)
-plot_row("SG1_Top.csv", "SG1_Bot.csv", ax4, ax5, ax6)
+plot_row("SG1_Bot.csv", "SG1_Top.csv", ax4, ax5, ax6)
 
 ax1.set_xlabel("North temp ($^\circ$C)")
 ax1.set_ylabel("South temp ($^\circ$C)")
 ax4.set_xlabel("North-Bot temp ($^\circ$C)")
 ax4.set_ylabel("North-Top temp ($^\circ$C)")
 
-ax2.set_xlabel("North rel. humidity (%)")
-ax2.set_ylabel("South rel. humidity (%)")
-ax5.set_xlabel("North-Bot rel. humidity (%)")
-ax5.set_ylabel("North-Top. humidity (%)")
+ax2.set_xlabel("North RH (%)")
+ax2.set_ylabel("South RH (%)")
+ax5.set_xlabel("North-Bot RH (%)")
+ax5.set_ylabel("North-Top RH (%)")
 
 def set_violin_labels(labels, ax):
 	ax.get_xaxis().set_tick_params(direction='out')
@@ -266,7 +260,7 @@ def set_violin_labels(labels, ax):
 	ax.set_xticklabels(labels)
 	ax.set_xlim(0.25, len(labels) + 0.75)
 set_violin_labels(["North", "South"], ax3)
-set_violin_labels(["North-Top", "North-Bottom"], ax6)
+set_violin_labels(["North-Bottom", "North-Top"], ax6)
 
 ax1.annotate("A.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)
 ax2.annotate("B.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)
@@ -277,7 +271,7 @@ ax6.annotate("F.", xy=(-0.19, 1.00), xycoords="axes fraction", fontsize=20)
 
 
 plt.tight_layout()
-plt.savefig("figure.png", dpi=300)
+plt.savefig("site_comparison_figure.png", dpi=300)
 #plt.show()
 
 
