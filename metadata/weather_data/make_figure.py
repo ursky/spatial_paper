@@ -191,7 +191,7 @@ def draw_deliquescence_time(ax, dates):
 		set1_hours.append(set1)
 		set2_hours.append(set2)
 
-	data = [set1_hours, set2_hours]
+	data = [set2_hours, set1_hours]
 	ax.violinplot(data, showmeans=False, showmedians=False, showextrema=False)
 	quartile1, medians, quartile3 = np.percentile(data, [25, 50, 75], axis=1)
 	whiskers = np.array([ adjacent_values(sorted_array, q1, q3) for sorted_array, q1, q3 in zip(data, quartile1, quartile3)])
@@ -259,8 +259,8 @@ def set_violin_labels(labels, ax):
 	ax.set_xticks(np.arange(1, len(labels) + 1))
 	ax.set_xticklabels(labels)
 	ax.set_xlim(0.25, len(labels) + 0.75)
-set_violin_labels(["North", "South"], ax3)
-set_violin_labels(["North-Bottom", "North-Top"], ax6)
+set_violin_labels(["South", "North"], ax3)
+set_violin_labels(["North-Top", "North-Bottom"], ax6)
 
 ax1.annotate("A.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)
 ax2.annotate("B.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)

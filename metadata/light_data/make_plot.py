@@ -104,9 +104,43 @@ def plot_data(data):
 	plt.savefig("figure.png")
 
 
+def compute_par(data):
+	areas = {}
+	for dataset in data:
+		spectra, transmissions = data[dataset]
+		past_value = 0
+		area = 0
+		count = 0
+		for i, spectrum in enumerate(spectra):
+			if spectrum > 700 or spectrum < 500:
+				continue
+			spectrum = int(spectrum)
+			transmission = transmissions[i]
+			if spectrum != past_value:
+				past_value = spectrum
+				area += transmission
+				count += 1
+		areas[dataset] = area
+
+	mid_pars = []
+	top_pars = []
+	for area in sorted(areas):
+		par = 2100 * areas[area] / areas["Sunlight"]
+		if "middle" in area:
+			mid_pars.append(par)
+		if "top" in area:
+			top_pars.append(par)
+		print area, "PAR:", str(par)[:4]
+
+	print "\nMiddle PAR average = %s +/- %s" % (np.mean(mid_pars), np.std(mid_pars))
+	print "Top PAR average = %s +/- %s" % (np.mean(top_pars), np.std(top_pars))
+
 
 data = load_data("20180410")
 data = rename_labels(data)
 data = standardize_data(data)
 data["Sunlight"] = load_solar_data("sunlight.txt")
 plot_data(data)
+compute_par(data)
+
+
