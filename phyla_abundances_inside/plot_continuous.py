@@ -286,7 +286,7 @@ def make_plot(data):
 	plt.ylabel("Standardized abundance of taxon")
 
 	plt.tight_layout()
-	plt.savefig("figure.png")
+	plt.savefig("figure.png", dpi=300)
 
 
 

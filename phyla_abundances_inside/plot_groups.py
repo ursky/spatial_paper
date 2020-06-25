@@ -297,7 +297,7 @@ def make_boxplot(df, dic):
 	ax.set_ylabel("Relative abundance standardized to slice average")
 	
 	plt.tight_layout()
-	plt.savefig("figure_grouped.png")
+	plt.savefig("figure_grouped.png", dpi=300)
 	#plt.show()
 
 

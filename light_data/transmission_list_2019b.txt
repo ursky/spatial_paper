@@ -1,0 +1,21 @@
+ 1 0 1.000  A ./20180410/ha04_a20_transmission.txt
+ 2 1 1.000  A ./20180410/ha04_a30_transmission.txt
+ 3 1 1.000  A ./20180410/ha04_a50_transmission.txt
+ 4 0 1.000  A ./20180410/ha04_b20_transmission.txt
+ 5 0 1.000  A ./20180410/ha04_b30_transmission.txt
+ 6 0 1.000  A ./20180410/ha04_b45_transmission.txt
+ 7 0 1.000  A ./20180410/ha04_c13_transmission.txt
+ 8 0 1.000  A ./20180410/ha04_c30_transmission.txt
+ 9 0 1.000  A ./20180410/ha05_a20_transmission.txt
+10 0 1.000  A ./20180410/ha05_a35_transmission.txt
+11 0 1.000  A ./20180410/ha05_b25_transmission.txt
+12 0 1.000  A ./20180410/ha05_b35_transmission.txt
+13 0 1.000  A ./20180410/ha05_b50_transmission.txt
+14 1 0.0495 B ./20180410/ha05_c16_transmission.txt
+15 1 0.0495 B ./20180410/ha05_c30_transmission.txt
+16 1 0.2542 C ./20180410/ha06_a35_transmission.txt
+17 1 0.2542 C ./20180410/ha06_a68_transmission.txt
+18 0 1.000  A ./20180410/ha06_b30_transmission.txt
+19 0 1.000  A ./20180410/ha06_b63_transmission.txt
+20 0 1.000  A ./20180410/ha06_c25_transmission.txt
+21 0 1.000  A ./20180118/ha6CYs06L_Subt26_0001_avg_L-D.txt
