@@ -208,7 +208,7 @@ def draw_deliquescence_time(ax, dates):
 
 
 	
-def plot_row(file1, file2, ax1, ax2, ax3):
+def plot_row(file1, file2, ax1, ax2):
 	print "loading and plotting", file1, file2
 	data1 = load_data(file1)
 	data2 = load_data(file2)
@@ -231,27 +231,27 @@ def plot_row(file1, file2, ax1, ax2, ax3):
 	ax2.set_xticks(np.arange(0, 110, 20))
 	ax2.set_yticks(np.arange(0, 110, 20))
 
-	draw_deliquescence_time(ax3, dates)
+	#draw_deliquescence_time(ax3, dates)
 
 
 # plotting set-up
 font = {'family': 'arial', 'weight': 'normal', 'size': 12}
 plt.rc('font', **font)
 plt.rc('font', family='arial')
-fig, ((ax1, ax2, ax3), (ax4, ax5, ax6)) = plt.subplots(2, 3, figsize=(10,6))
+fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(6,6))
 
-plot_row("SG1_Bot.csv", "SG2_Bot.csv", ax1, ax2, ax3)
-plot_row("SG1_Bot.csv", "SG1_Top.csv", ax4, ax5, ax6)
+plot_row("SG1_Bot.csv", "SG2_Bot.csv", ax1, ax2)
+plot_row("SG1_Bot.csv", "SG1_Top.csv", ax3, ax4)
 
 ax1.set_xlabel("North temp ($^\circ$C)")
 ax1.set_ylabel("South temp ($^\circ$C)")
-ax4.set_xlabel("North-Bot temp ($^\circ$C)")
-ax4.set_ylabel("North-Top temp ($^\circ$C)")
+ax3.set_xlabel("North-Bot temp ($^\circ$C)")
+ax3.set_ylabel("North-Top temp ($^\circ$C)")
 
 ax2.set_xlabel("North RH (%)")
 ax2.set_ylabel("South RH (%)")
-ax5.set_xlabel("North-Bot RH (%)")
-ax5.set_ylabel("North-Top RH (%)")
+ax4.set_xlabel("North-Bot RH (%)")
+ax4.set_ylabel("North-Top RH (%)")
 
 def set_violin_labels(labels, ax):
 	ax.get_xaxis().set_tick_params(direction='out')
@@ -259,15 +259,13 @@ def set_violin_labels(labels, ax):
 	ax.set_xticks(np.arange(1, len(labels) + 1))
 	ax.set_xticklabels(labels)
 	ax.set_xlim(0.25, len(labels) + 0.75)
-set_violin_labels(["South", "North"], ax3)
-set_violin_labels(["North-Top", "North-Bottom"], ax6)
+#set_violin_labels(["South", "North"], ax3)
+#set_violin_labels(["North-Top", "North-Bottom"], ax6)
 
 ax1.annotate("A.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)
 ax2.annotate("B.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)
 ax3.annotate("C.", xy=(-0.19, 1.00), xycoords="axes fraction", fontsize=20)
 ax4.annotate("D.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)
-ax5.annotate("E.", xy=(-0.19, 1.07), xycoords="axes fraction", fontsize=20)
-ax6.annotate("F.", xy=(-0.19, 1.00), xycoords="axes fraction", fontsize=20)
 
 
 plt.tight_layout()
